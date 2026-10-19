@@ -57,6 +57,7 @@ export const ViewportCanvas = observer(() => {
                 selectedMeshUuid={selectedMeshUuid}
                 selectedMaterial={sideBarManager.selectedMaterial}
                 selectedCrimpColor={sideBarManager.selectedCrimpColor}
+                currentModel={sideBarManager.selectedModel}
               />
             </NormalizedModelGroup>
           </Suspense>

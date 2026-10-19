@@ -11,7 +11,11 @@ export function getFilteredCrimpColors(
     "Stainless Steel",
     "Stainless Steel w/t Aluminium Blue Nut",
     "Stainless Steel w/t Aluminium Black Nut",
-  ].includes(materialName);
+    "Stainless Steel w/ Aluminium Blue Nut",
+    "Stainless Steel w/ Aluminium Black Nut",
+    "Stainless Steel Elbow w/Aluminum Nut & Insert (Blue)",
+    "Stainless Steel Elbow w/Aluminum Nut & Insert (Black)",
+  ].some((name) => materialName.toLowerCase().includes(name.toLowerCase()));
 
   return allCrimpColors.filter((crimp) => {
     if (isStainlessMaterial) {
@@ -28,6 +32,16 @@ export function getRecommendedCrimpColor(
 ): CrimpColor | null {
   if (!selectedMaterial) return null;
 
+  // 1. If preset defines defaultCrimp, prioritize it
+  if (selectedMaterial.defaultCrimp) {
+    const matched = availableCrimpColors.find(
+      (c) =>
+        c.name.toLowerCase() === selectedMaterial.defaultCrimp?.toLowerCase()
+    );
+    if (matched) return matched;
+  }
+
+  // 2. Fallback to legacy string heuristics
   const materialName = selectedMaterial.name;
 
   if (materialName.includes("Blue")) {

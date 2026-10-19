@@ -1,0 +1,62 @@
+{
+  "parts": {
+    "Pipe": [
+      "pipe",
+      "body"
+    ],
+    "Nut": [
+      "nut"
+    ],
+    "NutHead": [
+      "nuthead",
+      "nut_head",
+      "nut-head"
+    ],
+    "Insert": [
+      "insert"
+    ],
+    "Crimp": [
+      "crimp",
+      "collar"
+    ],
+    "Socket": [
+      "socket"
+    ],
+    "Press Lock": [
+      "press lock",
+      "presslock",
+      "press_lock",
+      "press-lock"
+    ],
+    "Circlip": [
+      "circlip"
+    ]
+  },
+  "fallbackPatterns": [
+    {
+      "pattern": "^nuthead",
+      "part": "NutHead",
+      "priority": 1
+    },
+    {
+      "pattern": "^nut",
+      "part": "Nut",
+      "priority": 2
+    },
+    {
+      "pattern": "^socket",
+      "part": "Socket",
+      "priority": 3
+    },
+    {
+      "pattern": "^press[-_ ]?lock",
+      "part": "Press Lock",
+      "priority": 4
+    },
+    {
+      "pattern": "^crimp",
+      "part": "Crimp",
+      "priority": 5
+    }
+  ]
+}

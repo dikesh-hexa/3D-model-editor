@@ -1,10 +1,12 @@
 import { makeAutoObservable } from "mobx";
-import type { ModelFile } from "../types/types";
+import type { ModelFile, ColorCombination, CrimpColor, FinishPreset } from "../types/types";
 import predefinedModels from "../data/models.json";
+import finishPresetsData from "../data/finishPresets.json";
 import { useGLTF } from "@react-three/drei";
 import { getFilteredCrimpColors, getRecommendedCrimpColor } from "../utils/crimpFilterUtils";
-import type { ColorCombination, CrimpColor } from "../types/types";
+import { buildColorCombinations, isFinishCompatible } from "../utils/finishUtils";
 import crimpColorsData from "../data/crimpColors.json";
+
 export class SideBarManager {
   modelFiles: ModelFile[] = [];
   selectedModel: ModelFile | null = null;
@@ -12,7 +14,6 @@ export class SideBarManager {
   isDropdownOpen: boolean = false;
 
   selectedCategory: string = "PROGold Fittings";
-  categories: string[] = ["PROGold Fittings", "PROBlack DR Fittings", "Smooth Bore Fittings"];
   isCategoryDropdownOpen: boolean = false;
 
   materials: ColorCombination[] = [];
@@ -29,8 +30,16 @@ export class SideBarManager {
   constructor() {
     makeAutoObservable(this, {}, { autoBind: true });
     this.initModels();
-    
-    // Initialization logic moved to initModels
+
+    // Listen for model updates from Admin Panel / local saves
+    if (typeof window !== "undefined") {
+      window.addEventListener("models-updated", ((e: CustomEvent) => {
+        this.refreshModels(e.detail?.category, e.detail?.id);
+      }) as EventListener);
+
+      // Async initial refresh to catch any disk updates made in admin panel
+      this.refreshModels();
+    }
   }
 
   initModels() {
@@ -38,10 +47,93 @@ export class SideBarManager {
     if (this.filteredModelFiles.length > 0) {
       this.setSelectedModel(this.filteredModelFiles[0]);
     }
-    
+
     this.crimpColors = crimpColorsData.crimpColors as CrimpColor[];
     if (this.crimpColors.length > 0) {
       this.selectedCrimpColor = this.crimpColors[0];
+    }
+  }
+
+  get categories(): string[] {
+    const set = new Set<string>();
+    const defaultCategories = ["PROGold Fittings", "PROBlack DR Fittings", "Smooth Bore Fittings"];
+
+    // Preserve default ordering for standard categories if they exist
+    defaultCategories.forEach((cat) => {
+      if (this.modelFiles.some((m) => m.category === cat)) {
+        set.add(cat);
+      }
+    });
+
+    // Dynamically include all other categories found in modelFiles
+    this.modelFiles.forEach((m) => {
+      if (m.category && m.category.trim()) {
+        set.add(m.category.trim());
+      }
+    });
+
+    if (set.size === 0) {
+      defaultCategories.forEach((cat) => set.add(cat));
+    }
+
+    return Array.from(set);
+  }
+
+  async refreshModels(targetCategory?: string, targetModelId?: string) {
+    try {
+      let latestList: ModelFile[] | null = null;
+      try {
+        const adminRes = await fetch("/__admin/data");
+        if (adminRes.ok) {
+          const adminData = await adminRes.json();
+          if (Array.isArray(adminData.models)) {
+            latestList = adminData.models;
+          }
+        }
+      } catch {
+        // Dev endpoint unavailable
+      }
+
+      if (!latestList) {
+        const jsonRes = await fetch("/src/data/models.json");
+        if (jsonRes.ok) {
+          latestList = await jsonRes.json();
+        }
+      }
+
+      if (latestList && Array.isArray(latestList) && latestList.length > 0) {
+        this.modelFiles = latestList;
+      }
+    } catch {
+      // Ignore network errors in offline/static environments
+    }
+
+    // Set target category if specified, or ensure current category is valid
+    if (targetCategory && this.categories.includes(targetCategory)) {
+      this.selectedCategory = targetCategory;
+    } else if (!this.categories.includes(this.selectedCategory)) {
+      this.selectedCategory = this.categories[0] || "PROGold Fittings";
+    }
+
+    // Select targeted model if specified
+    if (targetModelId) {
+      const found = this.filteredModelFiles.find((m) => m.id === targetModelId);
+      if (found) {
+        this.setSelectedModel(found);
+        return;
+      }
+    }
+
+    // Ensure selectedModel belongs to the currently active category
+    if (
+      !this.selectedModel ||
+      !this.filteredModelFiles.some((m) => m.id === this.selectedModel?.id)
+    ) {
+      if (this.filteredModelFiles.length > 0) {
+        this.setSelectedModel(this.filteredModelFiles[0]);
+      } else {
+        this.setSelectedModel(null);
+      }
     }
   }
 
@@ -77,7 +169,27 @@ export class SideBarManager {
   setSelectedModel(model: ModelFile | null) {
     if (model) {
       useGLTF.clear(model.url);
-      this.materials = model.colorCombination || [];
+
+      // Compute materials: use colorCombination if present, or dynamically generate from finishPresets
+      let mats: ColorCombination[] = model.colorCombination || [];
+      if (mats.length === 0) {
+        const presets = finishPresetsData as FinishPreset[];
+        if (model.finishIds && model.finishIds.length > 0) {
+          mats = buildColorCombinations(model, presets);
+        } else {
+          // Generate compatible presets so that any added model is immediately viewable and configurable
+          const compatible = presets.filter(
+            (p) => isFinishCompatible(model, p).compatible
+          );
+          const fallbackModel = {
+            ...model,
+            finishIds: compatible.map((p) => p.id),
+          };
+          mats = buildColorCombinations(fallbackModel, presets);
+        }
+      }
+
+      this.materials = mats;
       if (this.materials.length > 0) {
         this.setSelectedMaterial(this.materials[0]);
       } else {

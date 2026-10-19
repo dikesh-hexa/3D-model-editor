@@ -3,6 +3,9 @@ import { useGLTF } from "@react-three/drei";
 import * as THREE from "three";
 import type { LoadedModelProps } from "../../types/types";
 import materialsDataRaw from "../../data/materials.json";
+import partAliasesData from "../../data/partAliases.json";
+import { resolvePart } from "../../utils/finishUtils";
+import { sharedMaterialCache } from "../../utils/materialCache";
 
 const materialsData = materialsDataRaw.materials;
 
@@ -12,6 +15,7 @@ interface SubMeshProps {
   selectedCrimpColor: any;
   isSelected: boolean;
   baseMaterial: THREE.Material | null;
+  currentModel?: any;
 }
 
 const SubMeshMaterialLoader = memo(
@@ -21,16 +25,26 @@ const SubMeshMaterialLoader = memo(
     selectedCrimpColor,
     isSelected,
     baseMaterial,
+    currentModel,
   }: SubMeshProps) => {
-    const isCrimpMesh = node.name === "Crimp";
+    // Resolve part dynamically with alias fallback (exact first, then priority regex)
+    const detectedPart = resolvePart(node.name, currentModel, partAliasesData as any);
+    const isCrimpOrCollarMesh =
+      detectedPart === "Crimp" ||
+      detectedPart === "Socket" ||
+      detectedPart === "Press Lock" ||
+      node.name === "Crimp" ||
+      node.name === "Socket";
 
+    // Direct match by node name or by resolved part in materialMap
     const mappedColorName = selectedMaterial
-      ? selectedMaterial.materialMap[node.name]
+      ? selectedMaterial.materialMap[node.name] ||
+        (detectedPart ? selectedMaterial.materialMap[detectedPart] : null)
       : null;
 
     const matItem = mappedColorName
       ? materialsData.find(
-          (m) => m.name.toLowerCase() === mappedColorName.toLowerCase(),
+          (m) => m.name.toLowerCase() === mappedColorName.toLowerCase()
         )
       : null;
 
@@ -47,32 +61,30 @@ const SubMeshMaterialLoader = memo(
         return highlightMaterial;
       }
 
-      // 1. Determine the target color for this mesh
+      // 1. Determine the target color code for this mesh
       let targetColorCode: string | null = null;
-      if (isCrimpMesh && selectedCrimpColor) {
+      if (isCrimpOrCollarMesh && selectedCrimpColor) {
         targetColorCode = selectedCrimpColor.colorCode;
       } else if (matItem?.colorCode) {
         targetColorCode = matItem.colorCode;
       }
 
-      // 2. If we have our universal base material, clone it and override the color
-      if (baseMaterial) {
-        const clonedMat = baseMaterial.clone() as THREE.MeshStandardMaterial | THREE.MeshPhysicalMaterial;
-        
-        if (targetColorCode) {
-          clonedMat.color = new THREE.Color(targetColorCode);
-        }
-        
-        clonedMat.needsUpdate = true;
-        return clonedMat;
+      // 2. If we have our universal base material, retrieve or clone via sharedMaterialCache
+      if (baseMaterial && targetColorCode) {
+        return sharedMaterialCache.getOrCreateMaterial(
+          targetColorCode,
+          baseMaterial
+        );
+      } else if (baseMaterial) {
+        return baseMaterial;
       }
 
-      // 3. Fallback to the original GLTF material if baseMaterial isn't loaded
+      // 3. Fallback to original GLTF material
       return node.material;
     }, [
       isSelected,
       highlightMaterial,
-      isCrimpMesh,
+      isCrimpOrCollarMesh,
       selectedCrimpColor,
       matItem,
       baseMaterial,
@@ -109,7 +121,7 @@ const SubMeshMaterialLoader = memo(
         )}
       </mesh>
     );
-  },
+  }
 );
 
 export function LoadedModel({
@@ -119,12 +131,17 @@ export function LoadedModel({
   selectedMeshUuid,
   selectedMaterial,
   selectedCrimpColor,
+  currentModel,
 }: LoadedModelProps) {
+  // Apply encodeURI so paths containing spaces or '&' (e.g. SB&PROBlack Models) load cleanly
+  const safeUrl = useMemo(() => {
+    return url.startsWith("blob:") ? url : encodeURI(url);
+  }, [url]);
+
   // Load the main model
-  const { scene, nodes } = useGLTF(url);
-  
+  const { scene, nodes } = useGLTF(safeUrl);
+
   // Load the single universal material GLB
-  // Note: Please ensure /models/Rendering/material.glb is placed in the public directory!
   const materialGltf = useGLTF("/models/Rendering/material.glb");
   const baseMaterial = useMemo(() => {
     if (materialGltf && materialGltf.materials) {
@@ -159,6 +176,7 @@ export function LoadedModel({
               selectedCrimpColor={selectedCrimpColor}
               isSelected={selectedMeshUuid === meshNode.uuid}
               baseMaterial={baseMaterial}
+              currentModel={currentModel}
             />
           );
         }

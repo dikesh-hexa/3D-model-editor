@@ -22,6 +22,7 @@
     {
       "id": "gold",
       "name": "Gold",
+      "materialURL": "/materials/Gold.glb",
       "colorCode": "#CFA441"
     },
     {
@@ -29,6 +30,12 @@
       "name": "Plated Steel",
       "materialURL": "/materials/Plated_Steel.glb",
       "colorCode": "#8C8F5B"
+    },
+    {
+      "id": "red",
+      "name": "Red",
+      "materialURL": "/materials/Red.glb",
+      "colorCode": "#DC2626"
     }
   ]
 }
