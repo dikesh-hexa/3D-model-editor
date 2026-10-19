@@ -1,0 +1,121 @@
+[
+  {
+    "id": "aluminium-blue",
+    "name": "Aluminium Blue",
+    "code": "3",
+    "default": "Blue",
+    "parts": {
+      "Crimp": "Gold",
+      "Socket": "Gold",
+      "Press Lock": "Gold"
+    },
+    "defaultCrimp": "Gold"
+  },
+  {
+    "id": "aluminium-black",
+    "name": "Aluminium Black",
+    "code": "4",
+    "default": "Black",
+    "parts": {
+      "Crimp": "Black",
+      "Socket": "Black",
+      "Press Lock": "Black"
+    },
+    "defaultCrimp": "Black"
+  },
+  {
+    "id": "stainless-steel",
+    "name": "Stainless Steel",
+    "code": "7",
+    "default": "Stainless Steel",
+    "parts": {},
+    "defaultCrimp": "Stainless"
+  },
+  {
+    "id": "ss-blue-nut",
+    "name": "Stainless Steel with Aluminium Blue Nut",
+    "code": "7-3",
+    "default": "Stainless Steel",
+    "parts": {
+      "Nut": "Blue"
+    },
+    "defaultCrimp": "Stainless"
+  },
+  {
+    "id": "ss-black-nut",
+    "name": "Stainless Steel with Aluminium Black Nut",
+    "code": "7-4",
+    "default": "Stainless Steel",
+    "parts": {
+      "Nut": "Black"
+    },
+    "defaultCrimp": "Stainless"
+  },
+  {
+    "id": "ss-elbow-blue-nut-insert",
+    "name": "Stainless Steel with Nut and Insert (Blue)",
+    "code": null,
+    "default": "Stainless Steel",
+    "parts": {
+      "Nut": "Blue",
+      "NutHead": "Blue",
+      "Insert": "Blue"
+    },
+    "defaultCrimp": "Stainless",
+    "requiredParts": [
+      "Nut",
+      "Insert"
+    ],
+    "categories": []
+  },
+  {
+    "id": "ss-elbow-black-nut-insert",
+    "name": "Stainless Steel with Nut and Insert (Black)",
+    "code": null,
+    "default": "Stainless Steel",
+    "parts": {
+      "Nut": "Black",
+      "NutHead": "Black",
+      "Insert": "Black"
+    },
+    "defaultCrimp": "Stainless",
+    "requiredParts": [
+      "Nut",
+      "Insert"
+    ],
+    "categories": []
+  },
+  {
+    "id": "plated-steel",
+    "name": "Plated Steel",
+    "code": null,
+    "default": "Plated Steel",
+    "parts": {},
+    "defaultCrimp": "Clear Ano."
+  },
+  {
+    "id": "blue-gold",
+    "name": "Blue Gold",
+    "code": null,
+    "default": "Blue",
+    "parts": {
+      "Press Lock": "Gold",
+      "Socket": "Gold",
+      "Crimp": "Gold"
+    },
+    "defaultCrimp": "Gold"
+  },
+  {
+    "id": "blue-red",
+    "name": "Blue Red",
+    "code": null,
+    "default": "Blue",
+    "parts": {
+      "Press Lock": "Red",
+      "Socket": "Red",
+      "Crimp": "Red",
+      "Nut": "Red"
+    },
+    "defaultCrimp": "Gold"
+  }
+]

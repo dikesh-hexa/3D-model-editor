@@ -559,19 +559,40 @@
     "id": "AC-16-0050-00",
     "name": "AC-16-0050-00",
     "url": "/models/ClientModel/AC-16-0050-00.glb",
+    "category": "PROGold Fittings",
+    "finishIds": [
+      "blue-gold"
+    ],
+    "defaultFinishId": "blue-gold",
+    "partNumbers": {},
+    "meshes": [
+      {
+        "name": "Crimp",
+        "part": "Crimp"
+      },
+      {
+        "name": "KeepPlate",
+        "part": "Pipe"
+      },
+      {
+        "name": "Pipe",
+        "part": "Pipe"
+      }
+    ],
+    "overrides": {},
     "colorCombination": [
       {
         "id": 1,
-        "name": "Blue",
+        "finishId": "blue-gold",
+        "name": "Blue Gold",
+        "defaultCrimp": "Gold",
         "materialMap": {
-          "Nut": "Blue",
+          "Crimp": "Gold",
           "KeepPlate": "Blue",
-          "Crimp": "Blue",
           "Pipe": "Blue"
         }
       }
-    ],
-    "category": "PROGold Fittings"
+    ]
   },
   {
     "id": "AC-16-30-WF-DS",
@@ -626,12 +647,11 @@
     "colorCombination": [
       {
         "id": 1,
-        "name": "Aluminum (Blue / Gold)",
+        "name": "Aluminium Black",
         "materialMap": {
-          "Nut": "Blue",
-          "Bolt": "Blue",
-          "Socket": "Gold",
-          "Pipe": "Blue"
+          "Bolt": "Black",
+          "Pipe": "Black",
+          "Socket": "Black"
         }
       }
     ],
@@ -644,12 +664,11 @@
     "colorCombination": [
       {
         "id": 1,
-        "name": "Aluminum (Blue / Gold)",
+        "name": "Blue Gold",
         "materialMap": {
           "Nut": "Blue",
-          "NutHead": "Blue",
-          "Socket": "Gold",
-          "Pipe": "Blue"
+          "Pipe": "Blue",
+          "Socket": "Gold"
         }
       }
     ],
@@ -694,7 +713,7 @@
   {
     "id": "PL-24-0004-00",
     "name": "PL-24-0004-00",
-    "url": "/models/PL - Fittings/PL-24-0004-00.glb",
+    "url": "/models/ClientModel/PL-24-0004-00.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -710,7 +729,7 @@
   {
     "id": "PL-24-0008",
     "name": "PL-24-0008",
-    "url": "/models/PL - Fittings/PL-24-0008.glb",
+    "url": "/models/ClientModel/PL-24-0008.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -727,7 +746,7 @@
   {
     "id": "PL-24-0010-00",
     "name": "PL-24-0010-00",
-    "url": "/models/PL - Fittings/PL-24-0010-00.glb",
+    "url": "/models/ClientModel/PL-24-0010-00.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -744,7 +763,7 @@
   {
     "id": "PL-24-0011",
     "name": "PL-24-0011",
-    "url": "/models/PL - Fittings/PL-24-0011.glb",
+    "url": "/models/ClientModel/PL-24-0011.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -761,7 +780,7 @@
   {
     "id": "PL-24-20-30-WFFD-DS",
     "name": "PL-24-20-30-WFFD-DS",
-    "url": "/models/PL - Fittings/PL-24-20-30-WFFD-DS.glb",
+    "url": "/models/ClientModel/PL-24-20-30-WFFD-DS.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -777,7 +796,7 @@
   {
     "id": "PL-24-20-60-WFFD-DS",
     "name": "PL-24-20-60-WFFD-DS",
-    "url": "/models/PL - Fittings/PL-24-20-60-WFFD-DS.glb",
+    "url": "/models/ClientModel/PL-24-20-60-WFFD-DS.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -793,7 +812,7 @@
   {
     "id": "PL-24-20-90WFDS",
     "name": "PL-24-20-90WFDS",
-    "url": "/models/PL - Fittings/PL-24-20-90WFDS.glb",
+    "url": "/models/ClientModel/PL-24-20-90WFDS.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -809,7 +828,7 @@
   {
     "id": "PL-24-20-F3",
     "name": "PL-24-20-F3",
-    "url": "/models/PL - Fittings/PL-24-20-F3.glb",
+    "url": "/models/ClientModel/PL-24-20-F3.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -827,7 +846,7 @@
   {
     "id": "PL-24-30-WF",
     "name": "PL-24-30-WF",
-    "url": "/models/PL - Fittings/PL-24-30-WF.glb",
+    "url": "/models/ClientModel/PL-24-30-WF.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -843,7 +862,7 @@
   {
     "id": "PL-24-30JIC-3",
     "name": "PL-24-30JIC-3",
-    "url": "/models/PL - Fittings/PL-24-30JIC-3.glb",
+    "url": "/models/ClientModel/PL-24-30JIC-3.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -861,7 +880,7 @@
   {
     "id": "PL-24-45-WF",
     "name": "PL-24-45-WF",
-    "url": "/models/PL - Fittings/PL-24-45-WF.glb",
+    "url": "/models/ClientModel/PL-24-45-WF.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -877,7 +896,7 @@
   {
     "id": "PL-24-45-WFFD",
     "name": "PL-24-45-WFFD",
-    "url": "/models/PL - Fittings/PL-24-45-WFFD.glb",
+    "url": "/models/ClientModel/PL-24-45-WFFD.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -893,7 +912,7 @@
   {
     "id": "PL-24-60-WF",
     "name": "PL-24-60-WF",
-    "url": "/models/PL - Fittings/PL-24-60-WF.glb",
+    "url": "/models/ClientModel/PL-24-60-WF.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -909,7 +928,7 @@
   {
     "id": "PL-24-60JIC-3",
     "name": "PL-24-60JIC-3",
-    "url": "/models/PL - Fittings/PL-24-60JIC-3.glb",
+    "url": "/models/ClientModel/PL-24-60JIC-3.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -927,7 +946,7 @@
   {
     "id": "PL-24-90-WF",
     "name": "PL-24-90-WF",
-    "url": "/models/PL - Fittings/PL-24-90-WF.glb",
+    "url": "/models/ClientModel/PL-24-90-WF.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -943,7 +962,7 @@
   {
     "id": "PL-24-F3",
     "name": "PL-24-F3",
-    "url": "/models/PL - Fittings/PL-24-F3.glb",
+    "url": "/models/ClientModel/PL-24-F3.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -961,7 +980,7 @@
   {
     "id": "PL-24-G3-DS",
     "name": "PL-24-G3-DS",
-    "url": "/models/PL - Fittings/PL-24-G3-DS.glb",
+    "url": "/models/ClientModel/PL-24-G3-DS.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -979,7 +998,7 @@
   {
     "id": "PL-24-G3",
     "name": "PL-24-G3",
-    "url": "/models/PL - Fittings/PL-24-G3.glb",
+    "url": "/models/ClientModel/PL-24-G3.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -997,7 +1016,7 @@
   {
     "id": "PL-24-H3-DS",
     "name": "PL-24-H3-DS",
-    "url": "/models/PL - Fittings/PL-24-H3-DS.glb",
+    "url": "/models/ClientModel/PL-24-H3-DS.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -1015,7 +1034,7 @@
   {
     "id": "PL-24-H3",
     "name": "PL-24-H3",
-    "url": "/models/PL - Fittings/PL-24-H3.glb",
+    "url": "/models/ClientModel/PL-24-H3.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -1033,7 +1052,7 @@
   {
     "id": "PL-24-ST-WF",
     "name": "PL-24-ST-WF",
-    "url": "/models/PL - Fittings/PL-24-ST-WF.glb",
+    "url": "/models/ClientModel/PL-24-ST-WF.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -1049,7 +1068,7 @@
   {
     "id": "PL-24-ST-WFFD",
     "name": "PL-24-ST-WFFD",
-    "url": "/models/PL - Fittings/PL-24-ST-WFFD.glb",
+    "url": "/models/ClientModel/PL-24-ST-WFFD.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -1065,7 +1084,7 @@
   {
     "id": "PL-24-ST-WM",
     "name": "PL-24-ST-WM",
-    "url": "/models/PL - Fittings/PL-24-ST-WM.glb",
+    "url": "/models/ClientModel/PL-24-ST-WM.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -1081,7 +1100,7 @@
   {
     "id": "PL-28-0005-00",
     "name": "PL-28-0005-00",
-    "url": "/models/PL - Fittings/PL-28-0005-00.glb",
+    "url": "/models/ClientModel/PL-28-0005-00.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -1099,7 +1118,7 @@
   {
     "id": "PL-28-0006-60",
     "name": "PL-28-0006-60",
-    "url": "/models/PL - Fittings/PL-28-0006-60.glb",
+    "url": "/models/ClientModel/PL-28-0006-60.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -1117,7 +1136,7 @@
   {
     "id": "PL-28-24-45-WFFD-DS",
     "name": "PL-28-24-45-WFFD-DS",
-    "url": "/models/PL - Fittings/PL-28-24-45-WFFD-DS.glb",
+    "url": "/models/ClientModel/PL-28-24-45-WFFD-DS.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -1133,7 +1152,7 @@
   {
     "id": "PL-28-32-0005-00",
     "name": "PL-28-32-0005-00",
-    "url": "/models/PL - Fittings/PL-28-32-0005-00.glb",
+    "url": "/models/ClientModel/PL-28-32-0005-00.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -1151,7 +1170,7 @@
   {
     "id": "PL-28-ST-WFFD",
     "name": "PL-28-ST-WFFD",
-    "url": "/models/PL - Fittings/PL-28-ST-WFFD.glb",
+    "url": "/models/ClientModel/PL-28-ST-WFFD.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -1167,7 +1186,7 @@
   {
     "id": "PL-32-0004",
     "name": "PL-32-0004",
-    "url": "/models/PL - Fittings/PL-32-0004.glb",
+    "url": "/models/ClientModel/PL-32-0004.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -1184,7 +1203,7 @@
   {
     "id": "PL-32-0005-00",
     "name": "PL-32-0005-00",
-    "url": "/models/PL - Fittings/PL-32-0005-00.glb",
+    "url": "/models/ClientModel/PL-32-0005-00.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -1202,7 +1221,7 @@
   {
     "id": "PL-32-0005-60",
     "name": "PL-32-0005-60",
-    "url": "/models/PL - Fittings/PL-32-0005-60.glb",
+    "url": "/models/ClientModel/PL-32-0005-60.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -1220,24 +1239,31 @@
   {
     "id": "PL-32-0009",
     "name": "PL-32-0009",
-    "url": "/models/PL - Fittings/PL-32-0009.glb",
-    "colorCombination": [
+    "url": "/models/ClientModel/PL-32-0009.glb",
+    "category": "PROGold Fittings",
+    "finishIds": [],
+    "defaultFinishId": "",
+    "partNumbers": {},
+    "meshes": [
       {
-        "id": 1,
-        "name": "Aluminum (Blue / Gold)",
-        "materialMap": {
-          "KeepPlate": "Blue",
-          "PressLock": "Gold",
-          "Pipe": "Blue"
-        }
+        "name": "Collar",
+        "part": "Press Lock"
+      },
+      {
+        "name": "KeepPlate",
+        "part": "Unmapped"
+      },
+      {
+        "name": "Pipe",
+        "part": "Pipe"
       }
     ],
-    "category": "PROGold Fittings"
+    "overrides": {}
   },
   {
     "id": "PL-32-20-ST-WFFD",
     "name": "PL-32-20-ST-WFFD",
-    "url": "/models/PL - Fittings/PL-32-20-ST-WFFD.glb",
+    "url": "/models/ClientModel/PL-32-20-ST-WFFD.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -1253,7 +1279,7 @@
   {
     "id": "PL-32-24-45-WFFD-DS",
     "name": "PL-32-24-45-WFFD-DS",
-    "url": "/models/PL - Fittings/PL-32-24-45-WFFD-DS.glb",
+    "url": "/models/ClientModel/PL-32-24-45-WFFD-DS.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -1269,7 +1295,7 @@
   {
     "id": "PL-32-24-F3",
     "name": "PL-32-24-F3",
-    "url": "/models/PL - Fittings/PL-32-24-F3.glb",
+    "url": "/models/ClientModel/PL-32-24-F3.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -1287,7 +1313,7 @@
   {
     "id": "PL-32-24-G3-DS",
     "name": "PL-32-24-G3-DS",
-    "url": "/models/PL - Fittings/PL-32-24-G3-DS.glb",
+    "url": "/models/ClientModel/PL-32-24-G3-DS.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -1305,7 +1331,7 @@
   {
     "id": "PL-32-24-H3-DS",
     "name": "PL-32-24-H3-DS",
-    "url": "/models/PL - Fittings/PL-32-24-H3-DS.glb",
+    "url": "/models/ClientModel/PL-32-24-H3-DS.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -1323,7 +1349,7 @@
   {
     "id": "PL-32-28-ST-WFFD",
     "name": "PL-32-28-ST-WFFD",
-    "url": "/models/PL - Fittings/PL-32-28-ST-WFFD.glb",
+    "url": "/models/ClientModel/PL-32-28-ST-WFFD.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -1339,7 +1365,7 @@
   {
     "id": "PL-32-ST-WF",
     "name": "PL-32-ST-WF",
-    "url": "/models/PL - Fittings/PL-32-ST-WF.glb",
+    "url": "/models/ClientModel/PL-32-ST-WF.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -1355,7 +1381,7 @@
   {
     "id": "PL-32-ST-WM",
     "name": "PL-32-ST-WM",
-    "url": "/models/PL - Fittings/PL-32-ST-WM.glb",
+    "url": "/models/ClientModel/PL-32-ST-WM.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -1368,10 +1394,27 @@
     ],
     "category": "PROGold Fittings"
   },
-  {
+   {
     "id": "DR-08-M4-120",
     "name": "DR-08-M4-120",
-    "url": "/models/SB&PROBlack Models/DR-08-M4-120.glb",
+    "url": "/models/PROBlack DR Fittings/DR-08-M4-120.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Aluminum Black",
+        "materialMap": {
+          "Nut": "Black",
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
+  },
+    {
+    "id": "DR-08-M4-90",
+    "name": "DR-08-M4-90",
+    "url": "/models/PROBlack DR Fittings/DR-08-M4-90.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -1388,7 +1431,7 @@
   {
     "id": "DR-12-P4",
     "name": "DR-12-P4",
-    "url": "/models/SB&PROBlack Models/DR-12-P4.glb",
+    "url": "/models/PROBlack DR Fittings/DR-12-P4.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -1956,5 +1999,1426 @@
       }
     ],
     "category": "Smooth Bore Fittings"
+  },
+  {
+    "id": "PL-24-30JIC-X",
+    "name": "PL-24-30JIC-X",
+    "url": "/models/ClientModel/PL-24-30JIC-X.glb",
+    "category": "PROGold Fittings",
+    "finishIds": [
+      "aluminium-blue",
+      "aluminium-black",
+      "stainless-steel",
+      "ss-blue-nut",
+      "ss-black-nut",
+      "plated-steel",
+      "blue-gold",
+      "blue-red"
+    ],
+    "defaultFinishId": "aluminium-blue",
+    "partNumbers": {
+      "aluminium-blue": "PL-24-30JIC-3"
+    },
+    "meshes": [
+      {
+        "name": "Nut",
+        "part": "Nut"
+      },
+      {
+        "name": "Pipe",
+        "part": "Pipe"
+      },
+      {
+        "name": "PressLock",
+        "part": "Press Lock"
+      }
+    ],
+    "overrides": {},
+    "colorCombination": [
+      {
+        "id": 1,
+        "finishId": "aluminium-blue",
+        "name": "Aluminium Blue",
+        "defaultCrimp": "Gold",
+        "materialMap": {
+          "Nut": "Blue",
+          "Pipe": "Blue",
+          "PressLock": "Gold"
+        }
+      },
+      {
+        "id": 2,
+        "finishId": "aluminium-black",
+        "name": "Aluminium Black",
+        "defaultCrimp": "Black",
+        "materialMap": {
+          "Nut": "Black",
+          "Pipe": "Black",
+          "PressLock": "Black"
+        }
+      },
+      {
+        "id": 3,
+        "finishId": "stainless-steel",
+        "name": "Stainless Steel",
+        "defaultCrimp": "Stainless",
+        "materialMap": {
+          "Nut": "Stainless Steel",
+          "Pipe": "Stainless Steel",
+          "PressLock": "Stainless Steel"
+        }
+      },
+      {
+        "id": 4,
+        "finishId": "ss-blue-nut",
+        "name": "Stainless Steel with Aluminium Blue Nut",
+        "defaultCrimp": "Stainless",
+        "materialMap": {
+          "Nut": "Blue",
+          "Pipe": "Stainless Steel",
+          "PressLock": "Stainless Steel"
+        }
+      },
+      {
+        "id": 5,
+        "finishId": "ss-black-nut",
+        "name": "Stainless Steel with Aluminium Black Nut",
+        "defaultCrimp": "Stainless",
+        "materialMap": {
+          "Nut": "Black",
+          "Pipe": "Stainless Steel",
+          "PressLock": "Stainless Steel"
+        }
+      },
+      {
+        "id": 6,
+        "finishId": "plated-steel",
+        "name": "Plated Steel",
+        "defaultCrimp": "Clear Ano.",
+        "materialMap": {
+          "Nut": "Plated Steel",
+          "Pipe": "Plated Steel",
+          "PressLock": "Plated Steel"
+        }
+      },
+      {
+        "id": 7,
+        "finishId": "blue-gold",
+        "name": "Blue Gold",
+        "defaultCrimp": "Gold",
+        "materialMap": {
+          "Nut": "Blue",
+          "Pipe": "Blue",
+          "PressLock": "Gold"
+        }
+      },
+      {
+        "id": 8,
+        "finishId": "blue-red",
+        "name": "Blue Red",
+        "defaultCrimp": "Red",
+        "materialMap": {
+          "Nut": "Blue",
+          "Pipe": "Blue",
+          "PressLock": "Red"
+        }
+      }
+    ]
+  },
+  {
+    "id": "AR-12-G3",
+    "name": "AR-12-G3",
+    "url": "/models/ClientModel/AR-12-G3.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue Gold",
+        "materialMap": {
+          "-12_JIC_HEAD": "Blue",
+          "-12-45-ELBOW": "Blue",
+          "-12NUT": "Blue",
+          "AR-12-ELBOW-BODY": "Blue"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AR-06-90-M14",
+    "name": "AR-06-90-M14",
+    "url": "/models/ClientModel/AR-06-90-M14.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue Gold",
+        "materialMap": {
+          "Nut": "Blue",
+          "Pipe": "Blue",
+          "Socket": "Gold"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AR-06-F3",
+    "name": "AR-06-F3",
+    "url": "/models/ClientModel/AR-06-F3.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue Gold",
+        "materialMap": {
+          "Pipe": "Blue",
+          "Socket": "Gold"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AR-06-G3-DS",
+    "name": "AR-06-G3-DS",
+    "url": "/models/ClientModel/AR-06-G3-DS.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue Gold",
+        "materialMap": {
+          "Nut": "Blue",
+          "Pipe": "Blue",
+          "Socket": "Gold"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AR-06-G3",
+    "name": "AR-06-G3",
+    "url": "/models/ClientModel/AR-06-G3.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue Gold",
+        "materialMap": {
+          "Nut": "Blue",
+          "Pipe": "Blue",
+          "Socket": "Gold"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AR-06-H3-DS",
+    "name": "AR-06-H3-DS",
+    "url": "/models/ClientModel/AR-06-H3-DS.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue Gold",
+        "materialMap": {
+          "Nut": "Blue",
+          "Pipe": "Blue",
+          "Socket": "Gold"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AR-06-H3",
+    "name": "AR-06-H3",
+    "url": "/models/ClientModel/AR-06-H3.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue Gold",
+        "materialMap": {
+          "Nut": "Blue",
+          "Pipe": "Blue",
+          "Socket": "Gold"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AR-06-P3-DS",
+    "name": "AR-06-P3-DS",
+    "url": "/models/ClientModel/AR-06-P3-DS.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue Gold",
+        "materialMap": {
+          "Nut": "Blue",
+          "Pipe": "Blue",
+          "Socket": "Gold"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AR-06-R3-DS",
+    "name": "AR-06-R3-DS",
+    "url": "/models/ClientModel/AR-06-R3-DS.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue Gold",
+        "materialMap": {
+          "Nut": "Blue",
+          "Pipe": "Blue",
+          "Socket": "Gold"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AR-06-S3-DS",
+    "name": "AR-06-S3-DS",
+    "url": "/models/ClientModel/AR-06-S3-DS.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue Gold",
+        "materialMap": {
+          "Nut": "Blue",
+          "Pipe": "Blue",
+          "Socket": "Gold"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AR-08-45-WF-DS",
+    "name": "AR-08-45-WF-DS",
+    "url": "/models/ClientModel/AR-08-45-WF-DS.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue Gold",
+        "materialMap": {
+          "Pipe": "Blue",
+          "Socket": "Gold"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AR-08-90-WF-DS",
+    "name": "AR-08-90-WF-DS",
+    "url": "/models/ClientModel/AR-08-90-WF-DS.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue Gold",
+        "materialMap": {
+          "Pipe": "Blue",
+          "Socket": "Gold"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AR-08-F3",
+    "name": "AR-08-F3",
+    "url": "/models/ClientModel/AR-08-F3.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue Gold",
+        "materialMap": {
+          "Pipe": "Blue",
+          "Socket": "Gold"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AR-08-G3-DS",
+    "name": "AR-08-G3-DS",
+    "url": "/models/ClientModel/AR-08-G3-DS.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue Gold",
+        "materialMap": {
+          "Nut": "Blue",
+          "Pipe": "Blue",
+          "Socket": "Gold"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AR-08-H3-DS",
+    "name": "AR-08-H3-DS",
+    "url": "/models/ClientModel/AR-08-H3-DS.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue Gold",
+        "materialMap": {
+          "Nut": "Blue",
+          "Pipe": "Blue",
+          "Socket": "Gold"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AR-08-H3",
+    "name": "AR-08-H3",
+    "url": "/models/ClientModel/AR-08-H3.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue Gold",
+        "materialMap": {
+          "Nut": "Blue",
+          "Pipe": "Blue",
+          "Socket": "Gold"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AR-08-R3-DS",
+    "name": "AR-08-R3-DS",
+    "url": "/models/ClientModel/AR-08-R3-DS.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue Gold",
+        "materialMap": {
+          "Nut": "Blue",
+          "Pipe": "Blue",
+          "Socket": "Gold"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AR-08-S3-DS",
+    "name": "AR-08-S3-DS",
+    "url": "/models/ClientModel/AR-08-S3-DS.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue Gold",
+        "materialMap": {
+          "Nut": "Blue",
+          "Pipe": "Blue",
+          "Socket": "Gold"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AR-10-90-BSP",
+    "name": "AR-10-90-BSP",
+    "url": "/models/ClientModel/AR-10-90-BSP.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue Gold",
+        "materialMap": {
+          "Nut": "Blue",
+          "Pipe": "Blue",
+          "Socket": "Gold"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AR-10-F3",
+    "name": "AR-10-F3",
+    "url": "/models/ClientModel/AR-10-F3.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue Gold",
+        "materialMap": {
+          "Nut": "Blue",
+          "Pipe": "Blue",
+          "Socket": "Gold"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AR-10-G3-DS",
+    "name": "AR-10-G3-DS",
+    "url": "/models/ClientModel/AR-10-G3-DS.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue Gold",
+        "materialMap": {
+          "Nut": "Blue",
+          "Pipe": "Blue",
+          "Socket": "Gold"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AR-10-G3",
+    "name": "AR-10-G3",
+    "url": "/models/ClientModel/AR-10-G3.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue Gold",
+        "materialMap": {
+          "AR-10-ELBOW-BODY": "Blue",
+          "Nut": "Blue",
+          "Pipe": "Blue"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AR-10-H3-DS",
+    "name": "AR-10-H3-DS",
+    "url": "/models/ClientModel/AR-10-H3-DS.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue Gold",
+        "materialMap": {
+          "Nut": "Blue",
+          "Pipe": "Blue",
+          "Socket": "Gold"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AR-10-H3",
+    "name": "AR-10-H3",
+    "url": "/models/ClientModel/AR-10-H3.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue Gold",
+        "materialMap": {
+          "Nut": "Blue",
+          "Pipe": "Blue",
+          "Socket": "Gold"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AR-10-P3-DS",
+    "name": "AR-10-P3-DS",
+    "url": "/models/ClientModel/AR-10-P3-DS.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue Gold",
+        "materialMap": {
+          "Nut": "Blue",
+          "Pipe": "Blue",
+          "Socket": "Gold"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AR-10-R3-DS",
+    "name": "AR-10-R3-DS",
+    "url": "/models/ClientModel/AR-10-R3-DS.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue Gold",
+        "materialMap": {
+          "Nut": "Blue",
+          "Pipe": "Blue",
+          "Socket": "Gold"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AR-10-S3-DS",
+    "name": "AR-10-S3-DS",
+    "url": "/models/ClientModel/AR-10-S3-DS.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue Gold",
+        "materialMap": {
+          "Nut": "Blue",
+          "Pipe": "Blue",
+          "Socket": "Gold"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AR-10-ST-BSP",
+    "name": "AR-10-ST-BSP",
+    "url": "/models/ClientModel/AR-10-ST-BSP.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue Gold",
+        "materialMap": {
+          "Nut": "Blue",
+          "Pipe": "Blue",
+          "Socket": "Gold"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AR-12-F3",
+    "name": "AR-12-F3",
+    "url": "/models/ClientModel/AR-12-F3.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue Gold",
+        "materialMap": {
+          "Nut": "Blue",
+          "Pipe": "Blue",
+          "Socket": "Gold"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AR-12-G3-DS",
+    "name": "AR-12-G3-DS",
+    "url": "/models/ClientModel/AR-12-G3-DS.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue Gold",
+        "materialMap": {
+          "Nut": "Blue",
+          "Pipe": "Blue",
+          "Socket": "Gold"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AR-12-H3-DS",
+    "name": "AR-12-H3-DS",
+    "url": "/models/ClientModel/AR-12-H3-DS.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue Gold",
+        "materialMap": {
+          "Nut": "Blue",
+          "Pipe": "Blue",
+          "Socket": "Gold"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AR-12-H3",
+    "name": "AR-12-H3",
+    "url": "/models/ClientModel/AR-12-H3.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue Gold",
+        "materialMap": {
+          "Nut": "Blue",
+          "Pipe": "Blue",
+          "Socket": "Gold"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AR-12-P3-DS",
+    "name": "AR-12-P3-DS",
+    "url": "/models/ClientModel/AR-12-P3-DS.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue Gold",
+        "materialMap": {
+          "Nut": "Blue",
+          "Pipe": "Blue",
+          "Socket": "Gold"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AR-12-R3-DS",
+    "name": "AR-12-R3-DS",
+    "url": "/models/ClientModel/AR-12-R3-DS.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue Gold",
+        "materialMap": {
+          "Nut": "Blue",
+          "Pipe": "Blue",
+          "Socket": "Gold"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AR-12-S3-DS",
+    "name": "AR-12-S3-DS",
+    "url": "/models/ClientModel/AR-12-S3-DS.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue Gold",
+        "materialMap": {
+          "Nut": "Blue",
+          "Pipe": "Blue",
+          "Socket": "Gold"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AR-16-F3",
+    "name": "AR-16-F3",
+    "url": "/models/ClientModel/AR-16-F3.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue Gold",
+        "materialMap": {
+          "Nut": "Blue",
+          "Pipe": "Blue",
+          "Socket": "Gold"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AR-16-G3-DS",
+    "name": "AR-16-G3-DS",
+    "url": "/models/ClientModel/AR-16-G3-DS.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue Gold",
+        "materialMap": {
+          "Nut": "Blue",
+          "Pipe": "Blue",
+          "Socket": "Gold"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AR-16-G3",
+    "name": "AR-16-G3",
+    "url": "/models/ClientModel/AR-16-G3.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue Gold",
+        "materialMap": {
+          "Nut": "Blue",
+          "Pipe": "Blue",
+          "Socket": "Gold"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AR-16-H3-DS",
+    "name": "AR-16-H3-DS",
+    "url": "/models/ClientModel/AR-16-H3-DS.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue Gold",
+        "materialMap": {
+          "Nut": "Blue",
+          "Pipe": "Blue",
+          "Socket": "Gold"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AR-16-H3",
+    "name": "AR-16-H3",
+    "url": "/models/ClientModel/AR-16-H3.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue Gold",
+        "materialMap": {
+          "Nut": "Blue",
+          "Pipe": "Blue",
+          "Socket": "Gold"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AR-16-P3-DS",
+    "name": "AR-16-P3-DS",
+    "url": "/models/ClientModel/AR-16-P3-DS.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue Gold",
+        "materialMap": {
+          "Nut": "Blue",
+          "Pipe": "Blue",
+          "Socket": "Gold"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AR-16-R3-DS",
+    "name": "AR-16-R3-DS",
+    "url": "/models/ClientModel/AR-16-R3-DS.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue Gold",
+        "materialMap": {
+          "Nut": "Blue",
+          "Pipe": "Blue",
+          "Socket": "Gold"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AR-16-S3-DS",
+    "name": "AR-16-S3-DS",
+    "url": "/models/ClientModel/AR-16-S3-DS.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue Gold",
+        "materialMap": {
+          "Nut": "Blue",
+          "Pipe": "Blue",
+          "Socket": "Gold"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "DR-06-0002-90-X",
+    "name": "DR-06-0002-90-X",
+    "url": "/models/PROBlack DR Fittings/DR-06-0002-90-X.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
+  },
+  {
+    "id": "DR-06-0008-00-X",
+    "name": "DR-06-0008-00-X",
+    "url": "/models/PROBlack DR Fittings/DR-06-0008-00-X.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
+  },
+  {
+    "id": "DR-06-0008-90-X",
+    "name": "DR-06-0008-90-X",
+    "url": "/models/PROBlack DR Fittings/DR-06-0008-90-X.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
+  },
+  {
+    "id": "DR-06-0009-90-X",
+    "name": "DR-06-0009-90-X",
+    "url": "/models/PROBlack DR Fittings/DR-06-0009-90-X.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
+  },
+  {
+    "id": "DR-06-0010-90-X",
+    "name": "DR-06-0010-90-X",
+    "url": "/models/PROBlack DR Fittings/DR-06-0010-90-X.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
+  },
+  {
+    "id": "DR-06-0011-90-X",
+    "name": "DR-06-0011-90-X",
+    "url": "/models/PROBlack DR Fittings/DR-06-0011-90-X.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
+  },
+  {
+    "id": "DR-06-0012-90-X",
+    "name": "DR-06-0012-90-X",
+    "url": "/models/PROBlack DR Fittings/DR-06-0012-90-X.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
+  },
+  {
+    "id": "DR-06-F4",
+    "name": "DR-06-F4",
+    "url": "/models/PROBlack DR Fittings/DR-06-F4.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
+  },
+  {
+    "id": "DR-06-G4",
+    "name": "DR-06-G4",
+    "url": "/models/PROBlack DR Fittings/DR-06-G4.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
+  },
+  {
+    "id": "DR-06-H4",
+    "name": "DR-06-H4",
+    "url": "/models/PROBlack DR Fittings/DR-06-H4.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
+  },
+  {
+    "id": "DR-06-P4",
+    "name": "DR-06-P4",
+    "url": "/models/PROBlack DR Fittings/DR-06-P4.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
+  },
+  {
+    "id": "DR-06-R4",
+    "name": "DR-06-R4",
+    "url": "/models/PROBlack DR Fittings/DR-06-R4.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
+  },
+  {
+    "id": "DR-08-F4",
+    "name": "DR-08-F4",
+    "url": "/models/PROBlack DR Fittings/DR-08-F4.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
+  },
+  {
+    "id": "DR-08-G4",
+    "name": "DR-08-G4",
+    "url": "/models/PROBlack DR Fittings/DR-08-G4.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
+  },
+  {
+    "id": "DR-08-H4",
+    "name": "DR-08-H4",
+    "url": "/models/PROBlack DR Fittings/DR-08-H4.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
+  },
+  {
+    "id": "DR-08-P4",
+    "name": "DR-08-P4",
+    "url": "/models/PROBlack DR Fittings/DR-08-P4.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
+  },
+  {
+    "id": "DR-08-R4",
+    "name": "DR-08-R4",
+    "url": "/models/PROBlack DR Fittings/DR-08-R4.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
+  },
+  {
+    "id": "DR-10-0007-90-X",
+    "name": "DR-10-0007-90-X",
+    "url": "/models/PROBlack DR Fittings/DR-10-0007-90-X.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
+  },
+  {
+    "id": "DR-10-0008-90-X",
+    "name": "DR-10-0008-90-X",
+    "url": "/models/PROBlack DR Fittings/DR-10-0008-90-X.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
+  },
+  {
+    "id": "DR-10-0009-90-X",
+    "name": "DR-10-0009-90-X",
+    "url": "/models/PROBlack DR Fittings/DR-10-0009-90-X.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
+  },
+  {
+    "id": "DR-10-F4",
+    "name": "DR-10-F4",
+    "url": "/models/PROBlack DR Fittings/DR-10-F4.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
+  },
+  {
+    "id": "DR-10-G4",
+    "name": "DR-10-G4",
+    "url": "/models/PROBlack DR Fittings/DR-10-G4.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
+  },
+  {
+    "id": "DR-10-H4",
+    "name": "DR-10-H4",
+    "url": "/models/PROBlack DR Fittings/DR-10-H4.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
+  },
+  {
+    "id": "DR-10-P4",
+    "name": "DR-10-P4",
+    "url": "/models/PROBlack DR Fittings/DR-10-P4.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
+  },
+  {
+    "id": "DR-10-R4",
+    "name": "DR-10-R4",
+    "url": "/models/PROBlack DR Fittings/DR-10-R4.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
+  },
+  {
+    "id": "DR-12-F4",
+    "name": "DR-12-F4",
+    "url": "/models/PROBlack DR Fittings/DR-12-F4.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Nut": "Black",
+          "pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
+  },
+  {
+    "id": "DR-12-G4",
+    "name": "DR-12-G4",
+    "url": "/models/PROBlack DR Fittings/DR-12-G4.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
+  },
+  {
+    "id": "DR-12-H4",
+    "name": "DR-12-H4",
+    "url": "/models/PROBlack DR Fittings/DR-12-H4.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
+  },
+  {
+    "id": "DR-12-R4",
+    "name": "DR-12-R4",
+    "url": "/models/PROBlack DR Fittings/DR-12-R4.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
+  },
+  {
+    "id": "DR-16-F4",
+    "name": "DR-16-F4",
+    "url": "/models/PROBlack DR Fittings/DR-16-F4.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
+  },
+  {
+    "id": "DR-16-G4",
+    "name": "DR-16-G4",
+    "url": "/models/PROBlack DR Fittings/DR-16-G4.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
+  },
+  {
+    "id": "DR-16-H4",
+    "name": "DR-16-H4",
+    "url": "/models/PROBlack DR Fittings/DR-16-H4.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Nut": "Black",
+          "pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
+  },
+  {
+    "id": "DR-16-P4",
+    "name": "DR-16-P4",
+    "url": "/models/PROBlack DR Fittings/DR-16-P4.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
+  },
+  {
+    "id": "DR-16-R4",
+    "name": "DR-16-R4",
+    "url": "/models/PROBlack DR Fittings/DR-16-R4.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
   }
 ]
