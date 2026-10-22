@@ -1394,7 +1394,7 @@
     ],
     "category": "PROGold Fittings"
   },
-   {
+  {
     "id": "DR-08-M4-120",
     "name": "DR-08-M4-120",
     "url": "/models/PROBlack DR Fittings/DR-08-M4-120.glb",
@@ -1411,7 +1411,7 @@
     ],
     "category": "PROBlack DR Fittings"
   },
-    {
+  {
     "id": "DR-08-M4-90",
     "name": "DR-08-M4-90",
     "url": "/models/PROBlack DR Fittings/DR-08-M4-90.glb",
@@ -1448,7 +1448,7 @@
   {
     "id": "DR-A-0001",
     "name": "DR-A-0001",
-    "url": "/models/SB&PROBlack Models/DR-A-0001.glb",
+    "url": "/models/PROBlack DR Fittings/DR-A-0001.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -2134,10 +2134,9 @@
         "id": 1,
         "name": "Blue Gold",
         "materialMap": {
-          "-12_JIC_HEAD": "Blue",
-          "-12-45-ELBOW": "Blue",
-          "-12NUT": "Blue",
-          "AR-12-ELBOW-BODY": "Blue"
+          "Nut": "Blue",
+          "Pipe": "Blue",
+          "Socket": "Gold"
         }
       }
     ],
@@ -3414,6 +3413,294 @@
         "name": "Black",
         "materialMap": {
           "Crimp": "Black",
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
+  },
+  {
+    "id": "DR-A-0002",
+    "name": "DR-A-0002",
+    "url": "/models/PROBlack DR Fittings/DR-A-0002.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Aluminum Black",
+        "materialMap": {
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
+  },
+  {
+    "id": "DR-A-0003",
+    "name": "DR-A-0003",
+    "url": "/models/PROBlack DR Fittings/DR-A-0003.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Aluminum Black",
+        "materialMap": {
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
+  },
+  {
+    "id": "DR-A-90J08M08-X",
+    "name": "DR-A-90J08M08-X",
+    "url": "/models/PROBlack DR Fittings/DR-A-90J08M08-X.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Black",
+        "materialMap": {
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
+  },
+  {
+    "id": "DR-A-BHJ-08",
+    "name": "DR-A-BHJ-08",
+    "url": "/models/PROBlack DR Fittings/DR-A-BHJ-08.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Black",
+        "materialMap": {
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
+  },
+  {
+    "id": "DR-A-BHJ-12",
+    "name": "DR-A-BHJ-12",
+    "url": "/models/PROBlack DR Fittings/DR-A-BHJ-12.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Black",
+        "materialMap": {
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
+  },
+  {
+    "id": "DR-A-J06-K06",
+    "name": "DR-A-J06-K06",
+    "url": "/models/PROBlack DR Fittings/DR-A-J06-K06.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Black",
+        "materialMap": {
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
+  },
+  {
+    "id": "DR-A-J06-K08",
+    "name": "DR-A-J06-K08",
+    "url": "/models/PROBlack DR Fittings/DR-A-J06-K08.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Black",
+        "materialMap": {
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
+  },
+  {
+    "id": "DR-A-J06-K10",
+    "name": "DR-A-J06-K10",
+    "url": "/models/PROBlack DR Fittings/DR-A-J06-K10.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Black",
+        "materialMap": {
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
+  },
+  {
+    "id": "DR-A-J08-K08",
+    "name": "DR-A-J08-K08",
+    "url": "/models/PROBlack DR Fittings/DR-A-J08-K08.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Black",
+        "materialMap": {
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
+  },
+  {
+    "id": "DR-A-J08-K12",
+    "name": "DR-A-J08-K12",
+    "url": "/models/PROBlack DR Fittings/DR-A-J08-K12.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Black",
+        "materialMap": {
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
+  },
+  {
+    "id": "DR-A-J10-K08",
+    "name": "DR-A-J10-K08",
+    "url": "/models/PROBlack DR Fittings/DR-A-J10-K08.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Black",
+        "materialMap": {
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
+  },
+  {
+    "id": "DR-A-J10-K10",
+    "name": "DR-A-J10-K10",
+    "url": "/models/PROBlack DR Fittings/DR-A-J10-K10.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Black",
+        "materialMap": {
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
+  },
+  {
+    "id": "DR-A-J10-K12",
+    "name": "DR-A-J10-K12",
+    "url": "/models/PROBlack DR Fittings/DR-A-J10-K12.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Black",
+        "materialMap": {
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
+  },
+  {
+    "id": "DR-A-J12-K08",
+    "name": "DR-A-J12-K08",
+    "url": "/models/PROBlack DR Fittings/DR-A-J12-K08.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Black",
+        "materialMap": {
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
+  },
+  {
+    "id": "DR-A-J12-K10",
+    "name": "DR-A-J12-K10",
+    "url": "/models/PROBlack DR Fittings/DR-A-J12-K10.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Black",
+        "materialMap": {
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
+  },
+  {
+    "id": "DR-A-J12-K12",
+    "name": "DR-A-J12-K12",
+    "url": "/models/PROBlack DR Fittings/DR-A-J12-K12.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Black",
+        "materialMap": {
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
+  },
+  {
+    "id": "DR-A-J16-K12",
+    "name": "DR-A-J16-K12",
+    "url": "/models/PROBlack DR Fittings/DR-A-J16-K12.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Black",
+        "materialMap": {
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROBlack DR Fittings"
+  },
+  {
+    "id": "DR-A-J16-K16",
+    "name": "DR-A-J16-K16",
+    "url": "/models/PROBlack DR Fittings/DR-A-J16-K16.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Black",
+        "materialMap": {
           "Nut": "Black",
           "Pipe": "Black"
         }
