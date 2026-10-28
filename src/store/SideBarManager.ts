@@ -27,8 +27,12 @@ export class SideBarManager {
   approvedModels: Set<string> = new Set();
   rejectedModels: Set<string> = new Set();
 
+  // Model id from ?model= on page load; kept until the first refresh resolves it
+  pendingUrlModelId: string | null = null;
+
   constructor() {
     makeAutoObservable(this, {}, { autoBind: true });
+    this.pendingUrlModelId = this.getModelIdFromUrl();
     this.initModels();
 
     // Listen for model updates from Admin Panel / local saves
@@ -44,7 +48,11 @@ export class SideBarManager {
 
   initModels() {
     this.modelFiles = predefinedModels as ModelFile[];
-    if (this.filteredModelFiles.length > 0) {
+    const fromUrl = this.findModelById(this.pendingUrlModelId);
+    if (fromUrl) {
+      if (fromUrl.category) this.selectedCategory = fromUrl.category;
+      this.setSelectedModel(fromUrl);
+    } else if (this.filteredModelFiles.length > 0) {
       this.setSelectedModel(this.filteredModelFiles[0]);
     }
 
@@ -52,6 +60,72 @@ export class SideBarManager {
     if (this.crimpColors.length > 0) {
       this.selectedCrimpColor = this.crimpColors[0];
     }
+  }
+
+  getModelIdFromUrl(): string | null {
+    if (typeof window === "undefined") return null;
+    return new URLSearchParams(window.location.search).get("model");
+  }
+
+  findModelById(id: string | null): ModelFile | undefined {
+    if (!id) return undefined;
+    const exact = this.modelFiles.find((m) => m.id === id);
+    if (exact) return exact;
+
+    // Variant resolution, tried when no id matches exactly. Two rules build a pattern per model:
+    //  1. Every "X" in the model name is a wildcard for one or more letters/digits
+    //     ("AC-06-JX" covers AC-06-J4, "AC-08-HX-DS" covers AC-08-H4-DS).
+    //  2. A variant digit in the id (a segment that is a single digit, or ends in letter+digit)
+    //     is a wildcard for any number ("PL-24-60JIC-3" covers PL-24-60JIC-7, "AC-06-J3" covers J10).
+    // The match with the most literal characters wins; ties go to the first model listed.
+    const esc = (t: string) => t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    let best: ModelFile | undefined;
+    let bestScore = -1;
+    for (const m of this.modelFiles) {
+      const candidates: { pattern: string; score: number }[] = [];
+      if (m.name !== m.id && /X/i.test(m.name)) {
+        candidates.push({
+          pattern: m.name.split(/x/i).map(esc).join("[A-Za-z0-9]+"),
+          score: m.name.replace(/x/gi, "").length,
+        });
+      }
+      let literal = 0;
+      let hasVariant = false;
+      const idPattern = m.id
+        .split("-")
+        .map((seg) => {
+          const v = /^(\d|(.*[A-Za-z])\d)$/.exec(seg);
+          if (!v) {
+            literal += seg.length;
+            return esc(seg);
+          }
+          hasVariant = true;
+          const head = v[2] ?? "";
+          literal += head.length;
+          return esc(head) + "\\d+";
+        })
+        .join("-");
+      if (hasVariant) candidates.push({ pattern: idPattern, score: literal });
+
+      for (const c of candidates) {
+        if (c.score > bestScore && new RegExp(`^${c.pattern}$`, "i").test(id)) {
+          best = m;
+          bestScore = c.score;
+        }
+      }
+    }
+    return best;
+  }
+
+  syncUrl(model: ModelFile | null) {
+    if (typeof window === "undefined") return;
+    const url = new URL(window.location.href);
+    if (model) {
+      url.searchParams.set("model", model.id);
+    } else {
+      url.searchParams.delete("model");
+    }
+    window.history.replaceState(null, "", url);
   }
 
   get categories(): string[] {
@@ -107,6 +181,16 @@ export class SideBarManager {
     } catch {
       // Ignore network errors in offline/static environments
     }
+
+    // On the first refresh, honour ?model= from the page URL
+    if (!targetModelId && this.pendingUrlModelId) {
+      const fromUrl = this.findModelById(this.pendingUrlModelId);
+      if (fromUrl) {
+        targetModelId = fromUrl.id;
+        targetCategory = fromUrl.category;
+      }
+    }
+    this.pendingUrlModelId = null;
 
     // Set target category if specified, or ensure current category is valid
     if (targetCategory && this.categories.includes(targetCategory)) {
@@ -202,6 +286,7 @@ export class SideBarManager {
     this.selectedModel = model;
     this.loadKey++;
     this.isDropdownOpen = false;
+    this.syncUrl(model);
   }
 
   toggleDropdown() {
