@@ -37,7 +37,7 @@ export const CrimpDropdown = observer(() => {
             "Select a crimp color..."
           )}
         </span>
-        <span className="text-gray-500 ml-2 text-xs md:text-[10px]">▼</span>
+        <span className="text-gray-400 ml-2 text-xs md:text-[10px]">▼</span>
       </button>
 
       {isCrimpDropdownOpen && (

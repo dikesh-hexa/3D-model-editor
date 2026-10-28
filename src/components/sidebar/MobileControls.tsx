@@ -5,6 +5,7 @@ import { MaterialDropdown } from "./Material";
 import { CrimpDropdown } from "./CrimpDropdown";
 import { FeedbackButtons } from "../viewport/FeedbackButtons";
 import { CategoryDropdown } from "./CategoryDropdown";
+import { ModelSearch } from "./ModelSearch";
 
 export const MobileControls = observer(() => {
   const stateManager = useMainContext();
@@ -51,8 +52,9 @@ export const MobileControls = observer(() => {
       }}
     >
       <div className="p-4 flex flex-col gap-4">
+        <ModelSearch />
         <CategoryDropdown />
-        
+
         {/* Select Model Dropdown */}
         <div className="relative" onClick={(e) => e.stopPropagation()}>
           <label className="block text-sm font-medium text-gray-700 mb-1">

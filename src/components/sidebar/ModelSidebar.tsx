@@ -4,6 +4,7 @@ import { useMainContext } from "../../context/MainContext";
 import { MaterialDropdown } from "./Material";
 import { CrimpDropdown } from "./CrimpDropdown";
 import { CategoryDropdown } from "./CategoryDropdown";
+import { ModelSearch } from "./ModelSearch";
 
 export const ModelSidebar = observer(() => {
   const stateManager = useMainContext();
@@ -47,6 +48,8 @@ export const ModelSidebar = observer(() => {
         Model Explorer
       </h2>
 
+      <ModelSearch />
+
       <CategoryDropdown />
 
       <div className="relative" onClick={(e) => e.stopPropagation()}>
@@ -61,7 +64,7 @@ export const ModelSidebar = observer(() => {
           <span className="truncate">
             {selectedModel?.name || "Select a model..."}
           </span>
-          <span className="text-gray-500 ml-2 text-[10px]">▼</span>
+          <span className="text-gray-400 ml-2 text-[10px]">▼</span>
         </button>
 
         {isDropdownOpen && (

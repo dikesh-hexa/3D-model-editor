@@ -117,6 +117,30 @@ export class SideBarManager {
     return best;
   }
 
+  // Search across all categories: the variant-resolved model (same logic as ?model=) first,
+  // then models whose id or name contains the query.
+  searchModels(query: string, limit = 12): ModelFile[] {
+    const q = query.trim();
+    if (!q) return [];
+    const lower = q.toLowerCase();
+    const results: ModelFile[] = [];
+    const resolved = this.findModelById(q);
+    if (resolved) results.push(resolved);
+    for (const m of this.modelFiles) {
+      if (results.length >= limit) break;
+      if (m === resolved) continue;
+      if (m.id.toLowerCase().includes(lower) || m.name.toLowerCase().includes(lower)) {
+        results.push(m);
+      }
+    }
+    return results;
+  }
+
+  selectModelFromSearch(model: ModelFile) {
+    if (model.category) this.selectedCategory = model.category;
+    this.setSelectedModel(model);
+  }
+
   syncUrl(model: ModelFile | null) {
     if (typeof window === "undefined") return;
     const url = new URL(window.location.href);
