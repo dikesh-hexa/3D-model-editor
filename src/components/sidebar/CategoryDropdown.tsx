@@ -6,8 +6,9 @@ export const CategoryDropdown = observer(() => {
   const { sideBarManager } = stateManager.designManager;
   
   const { 
-    categories, 
-    selectedCategory, 
+    categories,
+    categoryCounts,
+    selectedCategory,
     setSelectedCategory, 
     isCategoryDropdownOpen, 
     toggleCategoryDropdown 
@@ -35,12 +36,13 @@ export const CategoryDropdown = observer(() => {
           {categories.map((category) => (
             <button
               key={category}
-              className={`w-full text-left px-4 py-3 md:px-3 md:py-2 text-sm md:text-xs transition-colors hover:bg-blue-50 ${
+              className={`flex items-center justify-between w-full text-left px-4 py-3 md:px-3 md:py-2 text-sm md:text-xs transition-colors hover:bg-blue-50 ${
                 selectedCategory === category ? "bg-blue-100 font-medium text-blue-900" : "text-gray-700"
               }`}
               onClick={() => setSelectedCategory(category)}
             >
-              {category}
+              <span className="truncate">{category}</span>
+              <span className="ml-2 text-gray-500 text-xs md:text-[10px]">{categoryCounts[category] ?? 0}</span>
             </button>
           ))}
         </div>

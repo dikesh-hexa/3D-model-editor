@@ -177,6 +177,15 @@ export class SideBarManager {
     return Array.from(set);
   }
 
+  get categoryCounts(): Record<string, number> {
+    const counts: Record<string, number> = {};
+    this.modelFiles.forEach((m) => {
+      const key = m.category?.trim();
+      if (key) counts[key] = (counts[key] || 0) + 1;
+    });
+    return counts;
+  }
+
   async refreshModels(targetCategory?: string, targetModelId?: string) {
     try {
       let latestList: ModelFile[] | null = null;
