@@ -38,8 +38,9 @@ export function resolveModelStorageAndCategory(modelIdOrFilename: string): Model
     };
   }
 
-  // 3. SB & SBR -> SB&PROBlack Models (Category: Smooth Bore Fittings)
+  // 3. SB, SBR & HPSB -> SB&PROBlack Models (Category: Smooth Bore Fittings)
   if (
+    upper.startsWith("HPSB") ||
     upper.startsWith("SB-") || upper.startsWith("SB") ||
     upper.startsWith("SBR-") || upper.startsWith("SBR")
   ) {
@@ -119,8 +120,9 @@ export function generateColorCombinationsForPrefix(
     };
   }
 
-  // SB- & SBR- prefix: Stainless Steel
+  // SB-, SBR- & HPSB- prefix: Stainless Steel
   if (
+    upper.startsWith("HPSB") ||
     upper.startsWith("SB-") ||
     upper.startsWith("SB") ||
     upper.startsWith("SBR-") ||
