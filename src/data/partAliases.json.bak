@@ -30,6 +30,12 @@
     ],
     "Circlip": [
       "circlip"
+    ],
+    "KeepPlate": [
+      "keepplate"
+    ],
+    "Bolt": [
+      "bolt"
     ]
   },
   "fallbackPatterns": [
@@ -57,6 +63,16 @@
       "pattern": "^crimp",
       "part": "Crimp",
       "priority": 5
+    },
+    {
+      "pattern": "^keep[-_ ]?plate",
+      "part": "KeepPlate",
+      "priority": 6
+    },
+    {
+      "pattern": "^bolt",
+      "part": "Bolt",
+      "priority": 7
     }
   ]
 }
