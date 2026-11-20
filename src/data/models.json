@@ -2284,7 +2284,7 @@
   {
     "id": "AR-08-45-WF-DS",
     "name": "AR-08-45-WF-DS",
-    "url": "/models/ClientModel/AR-08-45-WF-DS.glb",
+    "url": "blob:http://localhost:5175/7b676f5e-0fb1-490e-b8bc-5a240262f4e6",
     "colorCombination": [
       {
         "id": 1,
@@ -18205,6 +18205,3561 @@
         "materialMap": {
           "Crimp": "Black",
           "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-10-0013",
+    "name": "AC-10-0013",
+    "url": "blob:http://localhost:5175/7e93c5bb-09f9-40fc-8003-256a71d40843",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Nut": "Blue",
+          "NutHead": "Blue",
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Nut": "Black",
+          "NutHead": "Black",
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-10-0016-90",
+    "name": "AC-10-0016-90",
+    "url": "/models/ClientModel/AC-10-0016-90.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-10-0022-00",
+    "name": "AC-10-0022-00",
+    "url": "blob:http://localhost:5175/2d334f64-eb78-44f8-a68f-fc58d03a2ed6",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-10-0022-105",
+    "name": "AC-10-0022-105",
+    "url": "blob:http://localhost:5175/d1e13f80-70c6-478e-96c9-e3fc69d2af02",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-10-0022-120",
+    "name": "AC-10-0022-120",
+    "url": "blob:http://localhost:5175/12fbd3ac-93ad-48b4-baa3-22294b17ae5f",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-10-0022-30",
+    "name": "AC-10-0022-30",
+    "url": "blob:http://localhost:5175/b901309c-344a-471b-8dcb-478ff88d2a14",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-10-0022-45",
+    "name": "AC-10-0022-45",
+    "url": "blob:http://localhost:5175/223aa829-6c63-4af7-be2d-04ea912038fe",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-10-0022-70",
+    "name": "AC-10-0022-70",
+    "url": "blob:http://localhost:5175/0f227f7d-c90a-45d1-baeb-7024b251d6cd",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-10-0022-90DS",
+    "name": "AC-10-0022-90DS",
+    "url": "/models/ClientModel/AC-10-0022-90DS.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "KeepPlate": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "KeepPlate": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-10-0024-105F",
+    "name": "AC-10-0024-105F",
+    "url": "/models/ClientModel/AC-10-0024-105F.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "KeepPlate": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "KeepPlate": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-10-0040-90DS",
+    "name": "AC-10-0040-90DS",
+    "url": "/models/ClientModel/AC-10-0040-90DS.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "KeepPlate": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "KeepPlate": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-10-0042-90-X",
+    "name": "AC-10-0042-90-X",
+    "url": "/models/ClientModel/AC-10-0042-90-X.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-10-0047-DS",
+    "name": "AC-10-0047-DS",
+    "url": "/models/ClientModel/AC-10-0047-DS.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "KeepPlate": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "KeepPlate": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-10-0048-150",
+    "name": "AC-10-0048-150",
+    "url": "/models/ClientModel/AC-10-0048-150.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Nut": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-10-0050",
+    "name": "AC-10-0050",
+    "url": "blob:http://localhost:5175/0590662f-0377-4a0c-8b55-7531f681d6e6",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Nut": "Blue",
+          "NutHead": "Blue",
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Nut": "Black",
+          "NutHead": "Black",
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-10-0051-30",
+    "name": "AC-10-0051-30",
+    "url": "/models/ClientModel/AC-10-0051-30.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-10-0053",
+    "name": "AC-10-0053",
+    "url": "blob:http://localhost:5175/22181258-9eda-4dfb-9bfc-5dc4f48916e8",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Nut": "Blue",
+          "NutHead": "Blue",
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Nut": "Black",
+          "NutHead": "Black",
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-10-0054-80",
+    "name": "AC-10-0054-80",
+    "url": "/models/ClientModel/AC-10-0054-80.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "KeepPlate": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "KeepPlate": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-10-0056",
+    "name": "AC-10-0056",
+    "url": "blob:http://localhost:5175/48ceb323-cfb5-4977-9dd6-53f319f7d851",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Nut": "Blue",
+          "NutHead": "Blue",
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Nut": "Black",
+          "NutHead": "Black",
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-10-0062-90-X",
+    "name": "AC-10-0062-90-X",
+    "url": "/models/ClientModel/AC-10-0062-90-X.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-10-0070",
+    "name": "AC-10-0070",
+    "url": "blob:http://localhost:5175/5451d0c7-d311-4b0c-b5ac-bea95dad7414",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Nut": "Blue",
+          "NutHead": "Blue",
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Nut": "Black",
+          "NutHead": "Black",
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-10-12-45-WF-DS",
+    "name": "AC-10-12-45-WF-DS",
+    "url": "/models/ClientModel/AC-10-12-45-WF-DS.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-10-12-90-WF-DS",
+    "name": "AC-10-12-90-WF-DS",
+    "url": "/models/ClientModel/AC-10-12-90-WF-DS.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-10-16-90-WF-DS",
+    "name": "AC-10-16-90-WF-DS",
+    "url": "/models/ClientModel/AC-10-16-90-WF-DS.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-10-30-WF",
+    "name": "AC-10-30-WF",
+    "url": "/models/ClientModel/AC-10-30-WF.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-10-45-WM-DS",
+    "name": "AC-10-45-WM-DS",
+    "url": "/models/ClientModel/AC-10-45-WM-DS.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-10-45-WM",
+    "name": "AC-10-45-WM",
+    "url": "/models/ClientModel/AC-10-45-WM.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-10-60-WF",
+    "name": "AC-10-60-WF",
+    "url": "/models/ClientModel/AC-10-60-WF.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-10-90-WM-DS",
+    "name": "AC-10-90-WM-DS",
+    "url": "/models/ClientModel/AC-10-90-WM-DS.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-10-90-WM",
+    "name": "AC-10-90-WM",
+    "url": "/models/ClientModel/AC-10-90-WM.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-10-BH-J3",
+    "name": "AC-10-BH-J3",
+    "url": "/models/ClientModel/AC-10-BH-J3.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Nut": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-10-FINISHER",
+    "name": "AC-10-FINISHER",
+    "url": "/models/ClientModel/AC-10-FINISHER.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-10-M3-90-DS",
+    "name": "AC-10-M3-90-DS",
+    "url": "/models/ClientModel/AC-10-M3-90-DS.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Nut": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-12-0042-00",
+    "name": "AC-12-0042-00",
+    "url": "blob:http://localhost:5175/f1043475-4837-4cdd-9702-862ee3fea195",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "KeepPlate": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "KeepPlate": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-12-0042-120",
+    "name": "AC-12-0042-120",
+    "url": "blob:http://localhost:5175/21ac3c79-36b8-4992-bc05-e087b0f49e59",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "KeepPlate": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "KeepPlate": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-12-0042-70F",
+    "name": "AC-12-0042-70F",
+    "url": "/models/ClientModel/AC-12-0042-70F.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "KeepPlate": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "KeepPlate": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-12-0042-75F",
+    "name": "AC-12-0042-75F",
+    "url": "/models/ClientModel/AC-12-0042-75F.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "KeepPlate": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "KeepPlate": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-12-0042-90-DS-X",
+    "name": "AC-12-0042-90-DS-X",
+    "url": "/models/ClientModel/AC-12-0042-90-DS-X.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "KeepPlate": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "KeepPlate": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-12-0044",
+    "name": "AC-12-0044",
+    "url": "blob:http://localhost:5175/a51dcd59-a35d-490f-a734-9aeb11594625",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Bolt": "Blue",
+          "Crimp": "Blue",
+          "KeepPlate": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Bolt": "Black",
+          "Crimp": "Black",
+          "KeepPlate": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-12-0051",
+    "name": "AC-12-0051",
+    "url": "blob:http://localhost:5175/b892844c-92ec-4df2-a79f-08f4af266374",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Bolt": "Blue",
+          "Crimp": "Blue",
+          "KeepPlate": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Bolt": "Black",
+          "Crimp": "Black",
+          "KeepPlate": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-12-0052",
+    "name": "AC-12-0052",
+    "url": "blob:http://localhost:5175/eba74176-2d56-49e1-8c6e-4ae5a572b58b",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Bolt": "Blue",
+          "Crimp": "Blue",
+          "KeepPlate": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Bolt": "Black",
+          "Crimp": "Black",
+          "KeepPlate": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-12-0068-90",
+    "name": "AC-12-0068-90",
+    "url": "/models/ClientModel/AC-12-0068-90.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "KeepPlate": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "KeepPlate": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-12-0069-120",
+    "name": "AC-12-0069-120",
+    "url": "/models/ClientModel/AC-12-0069-120.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "KeepPlate": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "KeepPlate": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-12-0069-40",
+    "name": "AC-12-0069-40",
+    "url": "/models/ClientModel/AC-12-0069-40.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "KeepPlate": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "KeepPlate": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-12-0069-45",
+    "name": "AC-12-0069-45",
+    "url": "/models/ClientModel/AC-12-0069-45.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "KeepPlate": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "KeepPlate": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-12-0069-54",
+    "name": "AC-12-0069-54",
+    "url": "/models/ClientModel/AC-12-0069-54.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "KeepPlate": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "KeepPlate": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-12-0069-57",
+    "name": "AC-12-0069-57",
+    "url": "/models/ClientModel/AC-12-0069-57.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "KeepPlate": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "KeepPlate": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-12-0069-80",
+    "name": "AC-12-0069-80",
+    "url": "/models/ClientModel/AC-12-0069-80.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "KeepPlate": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "KeepPlate": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-12-0073",
+    "name": "AC-12-0073",
+    "url": "blob:http://localhost:5175/9b91c840-122f-4c46-8a9f-d2fb8dc441e2",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Bolt": "Blue",
+          "Crimp": "Blue",
+          "KeepPlate": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Bolt": "Black",
+          "Crimp": "Black",
+          "KeepPlate": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-12-0080-DS",
+    "name": "AC-12-0080-DS",
+    "url": "/models/ClientModel/AC-12-0080-DS.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "KeepPlate": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "KeepPlate": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-12-0109-60-X",
+    "name": "AC-12-0109-60-X",
+    "url": "/models/ClientModel/AC-12-0109-60-X.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "KeepPlate": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "KeepPlate": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-12-0113-X",
+    "name": "AC-12-0113-X",
+    "url": "/models/ClientModel/AC-12-0113-X.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-12-0117-00-X",
+    "name": "AC-12-0117-00-X",
+    "url": "/models/ClientModel/AC-12-0117-00-X.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-12-08-F3",
+    "name": "AC-12-08-F3",
+    "url": "/models/ClientModel/AC-12-08-F3.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Nut": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-12-10-90-WF-DS",
+    "name": "AC-12-10-90-WF-DS",
+    "url": "/models/ClientModel/AC-12-10-90-WF-DS.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-12-10-M3-120",
+    "name": "AC-12-10-M3-120",
+    "url": "blob:http://localhost:5175/cce652a6-52d0-41a6-a13d-5ded2811f301",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Nut": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-12-16-G3-DS",
+    "name": "AC-12-16-G3-DS",
+    "url": "/models/ClientModel/AC-12-16-G3-DS.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Nut": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-12-45-M30-DS-X",
+    "name": "AC-12-45-M30-DS-X",
+    "url": "/models/ClientModel/AC-12-45-M30-DS-X.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Nut": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-12-45-WM",
+    "name": "AC-12-45-WM",
+    "url": "/models/ClientModel/AC-12-45-WM.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-12-BJ-M18-X",
+    "name": "AC-12-BJ-M18-X",
+    "url": "/models/ClientModel/AC-12-BJ-M18-X.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-12-BJ-M22-5",
+    "name": "AC-12-BJ-M22-5",
+    "url": "/models/ClientModel/AC-12-BJ-M22-5.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-12-FINISHER",
+    "name": "AC-12-FINISHER",
+    "url": "/models/ClientModel/AC-12-FINISHER.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-12-KM26-X",
+    "name": "AC-12-KM26-X",
+    "url": "/models/ClientModel/AC-12-KM26-X.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Nut": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-12-KM7",
+    "name": "AC-12-KM7",
+    "url": "/models/ClientModel/AC-12-KM7.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Nut": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-12-M3-00-M22",
+    "name": "AC-12-M3-00-M22",
+    "url": "/models/ClientModel/AC-12-M3-00-M22.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Nut": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-16-0017",
+    "name": "AC-16-0017",
+    "url": "blob:http://localhost:5175/e985da1d-ec05-4404-b49d-e64b1534257e",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-16-0025",
+    "name": "AC-16-0025",
+    "url": "blob:http://localhost:5175/eaed4d58-7102-4dfd-a3e7-5ada375fe654",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-16-0031-45",
+    "name": "AC-16-0031-45",
+    "url": "/models/ClientModel/AC-16-0031-45.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-16-0039-90",
+    "name": "AC-16-0039-90",
+    "url": "/models/ClientModel/AC-16-0039-90.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Nut": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-16-0047-90",
+    "name": "AC-16-0047-90",
+    "url": "/models/ClientModel/AC-16-0047-90.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-16-0050-120-DS-X",
+    "name": "AC-16-0050-120-DS-X",
+    "url": "/models/ClientModel/AC-16-0050-120-DS-X.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "KeepPlate": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "KeepPlate": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-16-0050-45-DS-X",
+    "name": "AC-16-0050-45-DS-X",
+    "url": "/models/ClientModel/AC-16-0050-45-DS-X.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "KeepPlate": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "KeepPlate": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-16-0050-60",
+    "name": "AC-16-0050-60",
+    "url": "blob:http://localhost:5175/622a0320-a875-41ed-85ad-90dccc6444db",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue Gold",
+        "materialMap": {
+          "Crimp": "Gold",
+          "KeepPlate": "Blue",
+          "Pipe": "Blue"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-16-0050-90DS",
+    "name": "AC-16-0050-90DS",
+    "url": "/models/ClientModel/AC-16-0050-90DS.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "KeepPlate": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "KeepPlate": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-16-0052-60-X",
+    "name": "AC-16-0052-60-X",
+    "url": "/models/ClientModel/AC-16-0052-60-X.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "KeepPlate": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "KeepPlate": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-16-0059-00",
+    "name": "AC-16-0059-00",
+    "url": "/models/ClientModel/AC-16-0059-00.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-16-0061-45-X",
+    "name": "AC-16-0061-45-X",
+    "url": "/models/ClientModel/AC-16-0061-45-X.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "KeepPlate": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "KeepPlate": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-16-0062",
+    "name": "AC-16-0062",
+    "url": "blob:http://localhost:5175/d083f4e0-b7cc-4f9c-a0da-00f24f069389",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-16-0063",
+    "name": "AC-16-0063",
+    "url": "blob:http://localhost:5175/aa2ae16f-578a-41c6-b9d7-863ffbec5f5f",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-16-0064",
+    "name": "AC-16-0064",
+    "url": "blob:http://localhost:5175/9fb614c2-870d-4495-be54-b486e8d0b1d4",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-16-0065",
+    "name": "AC-16-0065",
+    "url": "blob:http://localhost:5175/cc687d68-4159-4fee-9086-f51fc190b055",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-16-0069-60-5",
+    "name": "AC-16-0069-60-5",
+    "url": "/models/ClientModel/AC-16-0069-60-5.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "KeepPlate": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "KeepPlate": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-16-0069-90-5",
+    "name": "AC-16-0069-90-5",
+    "url": "/models/ClientModel/AC-16-0069-90-5.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "KeepPlate": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "KeepPlate": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-16-20-45-WM",
+    "name": "AC-16-20-45-WM",
+    "url": "/models/ClientModel/AC-16-20-45-WM.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-16-20-90-WFFD-DS",
+    "name": "AC-16-20-90-WFFD-DS",
+    "url": "/models/ClientModel/AC-16-20-90-WFFD-DS.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-16-20-ST-WM",
+    "name": "AC-16-20-ST-WM",
+    "url": "/models/ClientModel/AC-16-20-ST-WM.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-16-45-WM",
+    "name": "AC-16-45-WM",
+    "url": "/models/ClientModel/AC-16-45-WM.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-16-60-M30",
+    "name": "AC-16-60-M30",
+    "url": "/models/ClientModel/AC-16-60-M30.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Nut": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-16-90-M30",
+    "name": "AC-16-90-M30",
+    "url": "/models/ClientModel/AC-16-90-M30.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Nut": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-16-BJ-M26-5",
+    "name": "AC-16-BJ-M26-5",
+    "url": "/models/ClientModel/AC-16-BJ-M26-5.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-20-0003-30",
+    "name": "AC-20-0003-30",
+    "url": "blob:http://localhost:5175/010ea04d-045c-4d4f-ae9c-ba07c9e81753",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "KeepPlate": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "KeepPlate": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-20-0005-60",
+    "name": "AC-20-0005-60",
+    "url": "/models/ClientModel/AC-20-0005-60.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-20-0006-00",
+    "name": "AC-20-0006-00",
+    "url": "/models/ClientModel/AC-20-0006-00.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-20-0008-60",
+    "name": "AC-20-0008-60",
+    "url": "/models/ClientModel/AC-20-0008-60.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "KeepPlate": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "KeepPlate": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-20-0008-90",
+    "name": "AC-20-0008-90",
+    "url": "/models/ClientModel/AC-20-0008-90.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-20-0009-00",
+    "name": "AC-20-0009-00",
+    "url": "/models/ClientModel/AC-20-0009-00.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "KeepPlate": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "KeepPlate": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-20-0011-32-X",
+    "name": "AC-20-0011-32-X",
+    "url": "/models/ClientModel/AC-20-0011-32-X.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-20-0011-60-X",
+    "name": "AC-20-0011-60-X",
+    "url": "/models/ClientModel/AC-20-0011-60-X.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-20-0015",
+    "name": "AC-20-0015",
+    "url": "blob:http://localhost:5175/9c84c995-298b-452a-b9a1-2f0ff7fe33bc",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Pipe": "Blue",
+          "PressLock": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Pipe": "Black",
+          "PressLock": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-20-0018-15-X",
+    "name": "AC-20-0018-15-X",
+    "url": "/models/ClientModel/AC-20-0018-15-X.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "KeepPlate": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "KeepPlate": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-20-0018-30-X",
+    "name": "AC-20-0018-30-X",
+    "url": "/models/ClientModel/AC-20-0018-30-X.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "KeepPlate": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "KeepPlate": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-20-0018-45-X",
+    "name": "AC-20-0018-45-X",
+    "url": "/models/ClientModel/AC-20-0018-45-X.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "KeepPlate": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "KeepPlate": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-20-0019-45-X",
+    "name": "AC-20-0019-45-X",
+    "url": "/models/ClientModel/AC-20-0019-45-X.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "KeepPlate": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "KeepPlate": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-20-24-15-WFFD",
+    "name": "AC-20-24-15-WFFD",
+    "url": "/models/ClientModel/AC-20-24-15-WFFD.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-20-24-20-WFFD",
+    "name": "AC-20-24-20-WFFD",
+    "url": "/models/ClientModel/AC-20-24-20-WFFD.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-20-24-25-WFFD",
+    "name": "AC-20-24-25-WFFD",
+    "url": "/models/ClientModel/AC-20-24-25-WFFD.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-20-24-30-WF",
+    "name": "AC-20-24-30-WF",
+    "url": "/models/ClientModel/AC-20-24-30-WF.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-20-24-30-WFFD",
+    "name": "AC-20-24-30-WFFD",
+    "url": "/models/ClientModel/AC-20-24-30-WFFD.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-20-24-45-WF",
+    "name": "AC-20-24-45-WF",
+    "url": "/models/ClientModel/AC-20-24-45-WF.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-20-24-45-WFFD",
+    "name": "AC-20-24-45-WFFD",
+    "url": "/models/ClientModel/AC-20-24-45-WFFD.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-20-24-60-WF",
+    "name": "AC-20-24-60-WF",
+    "url": "/models/ClientModel/AC-20-24-60-WF.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-20-24-60-WFFD",
+    "name": "AC-20-24-60-WFFD",
+    "url": "/models/ClientModel/AC-20-24-60-WFFD.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-20-24-60JIC",
+    "name": "AC-20-24-60JIC",
+    "url": "/models/ClientModel/AC-20-24-60JIC.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Nut": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-20-24-ST-WF",
+    "name": "AC-20-24-ST-WF",
+    "url": "/models/ClientModel/AC-20-24-ST-WF.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-20-30-WF",
+    "name": "AC-20-30-WF",
+    "url": "/models/ClientModel/AC-20-30-WF.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-20-30-WFFD",
+    "name": "AC-20-30-WFFD",
+    "url": "/models/ClientModel/AC-20-30-WFFD.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-20-60-WF",
+    "name": "AC-20-60-WF",
+    "url": "/models/ClientModel/AC-20-60-WF.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-20-60-WFFD",
+    "name": "AC-20-60-WFFD",
+    "url": "/models/ClientModel/AC-20-60-WFFD.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-20-90-WM",
+    "name": "AC-20-90-WM",
+    "url": "/models/ClientModel/AC-20-90-WM.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-20-M3-30",
+    "name": "AC-20-M3-30",
+    "url": "blob:http://localhost:5175/4b26308a-6b5d-4256-9120-d359e336be66",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Nut": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-20-ST-WM",
+    "name": "AC-20-ST-WM",
+    "url": "/models/ClientModel/AC-20-ST-WM.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-24-0004",
+    "name": "AC-24-0004",
+    "url": "/models/ClientModel/AC-24-0004.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-24-0006",
+    "name": "AC-24-0006",
+    "url": "/models/ClientModel/AC-24-0006.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-24-45-WF",
+    "name": "AC-24-45-WF",
+    "url": "/models/ClientModel/AC-24-45-WF.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-24-45-WFFD",
+    "name": "AC-24-45-WFFD",
+    "url": "/models/ClientModel/AC-24-45-WFFD.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-24-60JIC-X",
+    "name": "AC-24-60JIC-X",
+    "url": "/models/ClientModel/AC-24-60JIC-X.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Nut": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-24-90-WF",
+    "name": "AC-24-90-WF",
+    "url": "/models/ClientModel/AC-24-90-WF.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-24-G3",
+    "name": "AC-24-G3",
+    "url": "/models/ClientModel/AC-24-G3.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Nut": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-24-ST-WF",
+    "name": "AC-24-ST-WF",
+    "url": "/models/ClientModel/AC-24-ST-WF.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-24-ST-WFFD",
+    "name": "AC-24-ST-WFFD",
+    "url": "/models/ClientModel/AC-24-ST-WFFD.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-24-ST-WM",
+    "name": "AC-24-ST-WM",
+    "url": "/models/ClientModel/AC-24-ST-WM.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-28-0007-00",
+    "name": "AC-28-0007-00",
+    "url": "/models/ClientModel/AC-28-0007-00.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "KeepPlate": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "KeepPlate": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-28-0007-45",
+    "name": "AC-28-0007-45",
+    "url": "/models/ClientModel/AC-28-0007-45.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "KeepPlate": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "KeepPlate": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-28-0007-90",
+    "name": "AC-28-0007-90",
+    "url": "/models/ClientModel/AC-28-0007-90.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "KeepPlate": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "KeepPlate": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-32-0004",
+    "name": "AC-32-0004",
+    "url": "/models/ClientModel/AC-32-0004.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "KeepPlate": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "KeepPlate": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-32-0005-00",
+    "name": "AC-32-0005-00",
+    "url": "/models/ClientModel/AC-32-0005-00.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Nut": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-32-0006-45",
+    "name": "AC-32-0006-45",
+    "url": "/models/ClientModel/AC-32-0006-45.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "KeepPlate": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "KeepPlate": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-32-0006-90",
+    "name": "AC-32-0006-90",
+    "url": "/models/ClientModel/AC-32-0006-90.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "KeepPlate": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "KeepPlate": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-32-0006",
+    "name": "AC-32-0006",
+    "url": "/models/ClientModel/AC-32-0006.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "KeepPlate": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "KeepPlate": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-32-0007-00",
+    "name": "AC-32-0007-00",
+    "url": "/models/ClientModel/AC-32-0007-00.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-32-24-G3-DS",
+    "name": "AC-32-24-G3-DS",
+    "url": "/models/ClientModel/AC-32-24-G3-DS.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Nut": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "PROGold Fittings"
+  },
+  {
+    "id": "AC-32-ST-WM",
+    "name": "AC-32-ST-WM",
+    "url": "/models/ClientModel/AC-32-ST-WM.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
           "Pipe": "Black"
         }
       }
