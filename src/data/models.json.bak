@@ -2284,7 +2284,7 @@
   {
     "id": "AR-08-45-WF-DS",
     "name": "AR-08-45-WF-DS",
-    "url": "/models/ClientModel/AR-08-45-WF-DS.glb",
+    "url": "blob:http://localhost:5175/7b676f5e-0fb1-490e-b8bc-5a240262f4e6",
     "colorCombination": [
       {
         "id": 1,
@@ -21765,5 +21765,67 @@
       }
     ],
     "category": "PROGold Fittings"
+  },
+  {
+    "id": "19-0010-02-X",
+    "name": "19-0010-02-X",
+    "url": "/models/ClientModel/19-0010-02-X.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Bolt": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Imported Models"
+  },
+  {
+    "id": "19-0046-02-X",
+    "name": "19-0046-02-X",
+    "url": "/models/ClientModel/19-0046-02-X.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Bolt": "Stainless Steel",
+          "Pipe": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Imported Models"
+  },
+  {
+    "id": "19-0061-06-X",
+    "name": "19-0061-06-X",
+    "url": "/models/ClientModel/19-0061-06-X.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Bolt": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Imported Models"
+  },
+  {
+    "id": "19-0073-03-X",
+    "name": "19-0073-03-X",
+    "url": "/models/ClientModel/19-0073-03-X.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Bolt": "Stainless Steel",
+          "Pipe": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Imported Models"
   }
 ]

@@ -2284,7 +2284,7 @@
   {
     "id": "AR-08-45-WF-DS",
     "name": "AR-08-45-WF-DS",
-    "url": "blob:http://localhost:5175/7b676f5e-0fb1-490e-b8bc-5a240262f4e6",
+    "url": "/models/ClientModel/AR-08-45-WF-DS.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -15080,23 +15080,6 @@
     "category": "Smooth Bore Fittings"
   },
   {
-    "id": "SB-03-0041-X",
-    "name": "SB-03-0041-X",
-    "url": "blob:http://localhost:5175/05e3940d-96ab-4b64-869f-0f8a4482ec67",
-    "colorCombination": [
-      {
-        "id": 1,
-        "name": "Stainless Steel",
-        "materialMap": {
-          "Pipe": "Stainless Steel",
-          "Bolt": "Stainless Steel",
-          "Crimp": "Stainless Steel"
-        }
-      }
-    ],
-    "category": "Smooth Bore Fittings"
-  },
-  {
     "id": "SB-03-0047",
     "name": "SB-03-0047",
     "url": "/models/SB&PROBlack Models/SB-03-0047.glb",
@@ -16388,7 +16371,7 @@
   {
     "id": "AC-06-0013",
     "name": "AC-06-0013",
-    "url": "blob:http://localhost:5175/99f74b78-4163-4f60-9a8a-3eeb2adb8639",
+    "url": "/models/ClientModel/AC-06-0013.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -16842,7 +16825,7 @@
   {
     "id": "AC-06-0067",
     "name": "AC-06-0067",
-    "url": "blob:http://localhost:5175/b8408ec6-a663-46d4-926c-fe41e4016fc5",
+    "url": "/models/ClientModel/AC-06-0067.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -16866,7 +16849,7 @@
   {
     "id": "AC-06-0074",
     "name": "AC-06-0074",
-    "url": "blob:http://localhost:5175/88a5305d-8de1-45a4-a253-391bd7732cc8",
+    "url": "/models/ClientModel/AC-06-0074.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -16890,7 +16873,7 @@
   {
     "id": "AC-06-0077",
     "name": "AC-06-0077",
-    "url": "blob:http://localhost:5175/9a4b1e2b-c983-4575-b5f3-f946a814e8b1",
+    "url": "/models/ClientModel/AC-06-0077.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -16966,7 +16949,7 @@
   {
     "id": "AC-06-0099",
     "name": "AC-06-0099",
-    "url": "blob:http://localhost:5175/e3a37b03-ac02-4676-b9cd-f34687c8c044",
+    "url": "/models/ClientModel/AC-06-0099.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -16990,7 +16973,7 @@
   {
     "id": "AC-06-08-M3-60",
     "name": "AC-06-08-M3-60",
-    "url": "blob:http://localhost:5175/c5325dc8-3d8c-4b12-a8dd-dc6063983dc7",
+    "url": "/models/ClientModel/AC-06-08-M3-60.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -17016,7 +16999,7 @@
   {
     "id": "AC-06-08-M3-70",
     "name": "AC-06-08-M3-70",
-    "url": "blob:http://localhost:5175/0236db51-ccdb-4753-8a49-a4d71ef7841f",
+    "url": "/models/ClientModel/AC-06-08-M3-70.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -17344,7 +17327,7 @@
   {
     "id": "AC-06-J3-45",
     "name": "AC-06-J3-45",
-    "url": "blob:http://localhost:5175/6b2caaba-bf51-406f-ab77-c7e816c5dd8c",
+    "url": "/models/ClientModel/AC-06-J3-45.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -17535,7 +17518,7 @@
   {
     "id": "AC-08-0022",
     "name": "AC-08-0022",
-    "url": "blob:http://localhost:5175/e5a03d33-2534-4703-a083-95af2a834d4c",
+    "url": "/models/ClientModel/AC-08-0022.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -17654,7 +17637,7 @@
   {
     "id": "AC-08-0040",
     "name": "AC-08-0040",
-    "url": "blob:http://localhost:5175/40c7fc37-d443-46d0-bd63-810925d77684",
+    "url": "/models/ClientModel/AC-08-0040.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -17701,7 +17684,7 @@
   {
     "id": "AC-08-0041",
     "name": "AC-08-0041",
-    "url": "blob:http://localhost:5175/989b2a55-dc49-41e6-93d6-2395b1f73163",
+    "url": "/models/ClientModel/AC-08-0041.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -17772,7 +17755,7 @@
   {
     "id": "AC-08-0045",
     "name": "AC-08-0045",
-    "url": "blob:http://localhost:5175/c79422fa-73c8-47b4-af0f-add55db00f23",
+    "url": "/models/ClientModel/AC-08-0045.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -17843,7 +17826,7 @@
   {
     "id": "AC-08-0087",
     "name": "AC-08-0087",
-    "url": "blob:http://localhost:5175/5a6cc988-ef2e-47ed-9cb4-2a1b5c07240a",
+    "url": "/models/ClientModel/AC-08-0087.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -18214,7 +18197,7 @@
   {
     "id": "AC-10-0013",
     "name": "AC-10-0013",
-    "url": "blob:http://localhost:5175/7e93c5bb-09f9-40fc-8003-256a71d40843",
+    "url": "/models/ClientModel/AC-10-0013.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -18266,7 +18249,7 @@
   {
     "id": "AC-10-0022-00",
     "name": "AC-10-0022-00",
-    "url": "blob:http://localhost:5175/2d334f64-eb78-44f8-a68f-fc58d03a2ed6",
+    "url": "/models/ClientModel/AC-10-0022-00.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -18290,7 +18273,7 @@
   {
     "id": "AC-10-0022-105",
     "name": "AC-10-0022-105",
-    "url": "blob:http://localhost:5175/d1e13f80-70c6-478e-96c9-e3fc69d2af02",
+    "url": "/models/ClientModel/AC-10-0022-105.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -18314,7 +18297,7 @@
   {
     "id": "AC-10-0022-120",
     "name": "AC-10-0022-120",
-    "url": "blob:http://localhost:5175/12fbd3ac-93ad-48b4-baa3-22294b17ae5f",
+    "url": "/models/ClientModel/AC-10-0022-120.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -18338,7 +18321,7 @@
   {
     "id": "AC-10-0022-30",
     "name": "AC-10-0022-30",
-    "url": "blob:http://localhost:5175/b901309c-344a-471b-8dcb-478ff88d2a14",
+    "url": "/models/ClientModel/AC-10-0022-30.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -18362,7 +18345,7 @@
   {
     "id": "AC-10-0022-45",
     "name": "AC-10-0022-45",
-    "url": "blob:http://localhost:5175/223aa829-6c63-4af7-be2d-04ea912038fe",
+    "url": "/models/ClientModel/AC-10-0022-45.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -18386,7 +18369,7 @@
   {
     "id": "AC-10-0022-70",
     "name": "AC-10-0022-70",
-    "url": "blob:http://localhost:5175/0f227f7d-c90a-45d1-baeb-7024b251d6cd",
+    "url": "/models/ClientModel/AC-10-0022-70.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -18564,7 +18547,7 @@
   {
     "id": "AC-10-0050",
     "name": "AC-10-0050",
-    "url": "blob:http://localhost:5175/0590662f-0377-4a0c-8b55-7531f681d6e6",
+    "url": "/models/ClientModel/AC-10-0050.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -18616,7 +18599,7 @@
   {
     "id": "AC-10-0053",
     "name": "AC-10-0053",
-    "url": "blob:http://localhost:5175/22181258-9eda-4dfb-9bfc-5dc4f48916e8",
+    "url": "/models/ClientModel/AC-10-0053.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -18670,7 +18653,7 @@
   {
     "id": "AC-10-0056",
     "name": "AC-10-0056",
-    "url": "blob:http://localhost:5175/48ceb323-cfb5-4977-9dd6-53f319f7d851",
+    "url": "/models/ClientModel/AC-10-0056.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -18722,7 +18705,7 @@
   {
     "id": "AC-10-0070",
     "name": "AC-10-0070",
-    "url": "blob:http://localhost:5175/5451d0c7-d311-4b0c-b5ac-bea95dad7414",
+    "url": "/models/ClientModel/AC-10-0070.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -19042,7 +19025,7 @@
   {
     "id": "AC-12-0042-00",
     "name": "AC-12-0042-00",
-    "url": "blob:http://localhost:5175/f1043475-4837-4cdd-9702-862ee3fea195",
+    "url": "/models/ClientModel/AC-12-0042-00.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -19068,7 +19051,7 @@
   {
     "id": "AC-12-0042-120",
     "name": "AC-12-0042-120",
-    "url": "blob:http://localhost:5175/21ac3c79-36b8-4992-bc05-e087b0f49e59",
+    "url": "/models/ClientModel/AC-12-0042-120.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -19172,7 +19155,7 @@
   {
     "id": "AC-12-0044",
     "name": "AC-12-0044",
-    "url": "blob:http://localhost:5175/a51dcd59-a35d-490f-a734-9aeb11594625",
+    "url": "/models/ClientModel/AC-12-0044.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -19200,7 +19183,7 @@
   {
     "id": "AC-12-0051",
     "name": "AC-12-0051",
-    "url": "blob:http://localhost:5175/b892844c-92ec-4df2-a79f-08f4af266374",
+    "url": "/models/ClientModel/AC-12-0051.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -19228,7 +19211,7 @@
   {
     "id": "AC-12-0052",
     "name": "AC-12-0052",
-    "url": "blob:http://localhost:5175/eba74176-2d56-49e1-8c6e-4ae5a572b58b",
+    "url": "/models/ClientModel/AC-12-0052.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -19438,7 +19421,7 @@
   {
     "id": "AC-12-0073",
     "name": "AC-12-0073",
-    "url": "blob:http://localhost:5175/9b91c840-122f-4c46-8a9f-d2fb8dc441e2",
+    "url": "/models/ClientModel/AC-12-0073.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -19616,7 +19599,7 @@
   {
     "id": "AC-12-10-M3-120",
     "name": "AC-12-10-M3-120",
-    "url": "blob:http://localhost:5175/cce652a6-52d0-41a6-a13d-5ded2811f301",
+    "url": "/models/ClientModel/AC-12-10-M3-120.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -19868,7 +19851,7 @@
   {
     "id": "AC-16-0017",
     "name": "AC-16-0017",
-    "url": "blob:http://localhost:5175/e985da1d-ec05-4404-b49d-e64b1534257e",
+    "url": "/models/ClientModel/AC-16-0017.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -19892,7 +19875,7 @@
   {
     "id": "AC-16-0025",
     "name": "AC-16-0025",
-    "url": "blob:http://localhost:5175/eaed4d58-7102-4dfd-a3e7-5ada375fe654",
+    "url": "/models/ClientModel/AC-16-0025.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -20042,7 +20025,7 @@
   {
     "id": "AC-16-0050-60",
     "name": "AC-16-0050-60",
-    "url": "blob:http://localhost:5175/622a0320-a875-41ed-85ad-90dccc6444db",
+    "url": "/models/ClientModel/AC-16-0050-60.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -20161,7 +20144,7 @@
   {
     "id": "AC-16-0062",
     "name": "AC-16-0062",
-    "url": "blob:http://localhost:5175/d083f4e0-b7cc-4f9c-a0da-00f24f069389",
+    "url": "/models/ClientModel/AC-16-0062.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -20185,7 +20168,7 @@
   {
     "id": "AC-16-0063",
     "name": "AC-16-0063",
-    "url": "blob:http://localhost:5175/aa2ae16f-578a-41c6-b9d7-863ffbec5f5f",
+    "url": "/models/ClientModel/AC-16-0063.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -20209,7 +20192,7 @@
   {
     "id": "AC-16-0064",
     "name": "AC-16-0064",
-    "url": "blob:http://localhost:5175/9fb614c2-870d-4495-be54-b486e8d0b1d4",
+    "url": "/models/ClientModel/AC-16-0064.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -20233,7 +20216,7 @@
   {
     "id": "AC-16-0065",
     "name": "AC-16-0065",
-    "url": "blob:http://localhost:5175/cc687d68-4159-4fee-9086-f51fc190b055",
+    "url": "/models/ClientModel/AC-16-0065.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -20481,7 +20464,7 @@
   {
     "id": "AC-20-0003-30",
     "name": "AC-20-0003-30",
-    "url": "blob:http://localhost:5175/010ea04d-045c-4d4f-ae9c-ba07c9e81753",
+    "url": "/models/ClientModel/AC-20-0003-30.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -20679,7 +20662,7 @@
   {
     "id": "AC-20-0015",
     "name": "AC-20-0015",
-    "url": "blob:http://localhost:5175/9c84c995-298b-452a-b9a1-2f0ff7fe33bc",
+    "url": "/models/ClientModel/AC-20-0015.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -21193,7 +21176,7 @@
   {
     "id": "AC-20-M3-30",
     "name": "AC-20-M3-30",
-    "url": "blob:http://localhost:5175/4b26308a-6b5d-4256-9120-d359e336be66",
+    "url": "/models/ClientModel/AC-20-M3-30.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -21765,5 +21748,82 @@
       }
     ],
     "category": "PROGold Fittings"
+  },
+  {
+    "id": "19-0010-02-X",
+    "name": "19-0010-02-X",
+    "url": "/models/ClientModel/19-0010-02-X.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Bolt": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Imported Models"
+  },
+  {
+    "id": "19-0046-02-X",
+    "name": "19-0046-02-X",
+    "url": "/models/ClientModel/19-0046-02-X.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Bolt": "Stainless Steel",
+          "Pipe": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Imported Models"
+  },
+  {
+    "id": "19-0061-06-X",
+    "name": "19-0061-06-X",
+    "url": "/models/ClientModel/19-0061-06-X.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Bolt": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Imported Models"
+  },
+  {
+    "id": "19-0073-03-X",
+    "name": "19-0073-03-X",
+    "url": "/models/ClientModel/19-0073-03-X.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Bolt": "Stainless Steel",
+          "Pipe": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Imported Models"
+  },
+  {
+    "id": "BN704P",
+    "name": "BN704P",
+    "url": "/models/ClientModel/BN704P.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "BN704P001": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Imported Models"
   }
 ]

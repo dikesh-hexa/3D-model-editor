@@ -1,6 +1,8 @@
 import { makeAutoObservable } from "mobx";
 import * as THREE from "three";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
+import { DRACOLoader } from "three/examples/jsm/loaders/DRACOLoader.js";
+import { GLTFExporter } from "three/examples/jsm/exporters/GLTFExporter.js";
 import { groupVariants } from "../../utils/partNumberUtils";
 import { resolvePart } from "../../utils/finishUtils";
 import type { AdminModelItem, ModelWarning } from "./ModelCatalogManager";
@@ -165,6 +167,25 @@ export function generateColorCombinationsForPrefix(
   };
 }
 
+/** Returns true if the GLB's JSON chunk requires KHR_draco_mesh_compression. */
+async function isDracoGlb(file: File): Promise<boolean> {
+  try {
+    const head = new DataView(await file.slice(0, 20).arrayBuffer());
+    if (head.getUint32(0, true) !== 0x46546c67) return false; // "glTF"
+    const jsonLen = head.getUint32(12, true);
+    const json = await file.slice(20, 20 + jsonLen).text();
+    return json.includes("KHR_draco_mesh_compression");
+  } catch {
+    return false;
+  }
+}
+
+/** Re-exports a loaded scene as a plain (uncompressed) GLB file with the same name. */
+async function exportUncompressedGlb(scene: THREE.Object3D, name: string): Promise<File> {
+  const buffer = (await new GLTFExporter().parseAsync(scene, { binary: true })) as ArrayBuffer;
+  return new File([buffer], name, { type: "model/gltf-binary" });
+}
+
 export class UploadManager {
   isProcessing: boolean = false;
   processedCount: number = 0;
@@ -206,7 +227,11 @@ export class UploadManager {
 
     const grouped = groupVariants(glbFiles);
     const gltfLoader = new GLTFLoader();
+    const dracoLoader = new DRACOLoader();
+    dracoLoader.setDecoderPath(`${import.meta.env.BASE_URL}draco/`);
+    gltfLoader.setDRACOLoader(dracoLoader);
     const newAdminModels: AdminModelItem[] = [];
+    const failedFiles: string[] = [];
 
     // Check against existing system models loaded from models.json
     const existingModels = this.adminManager.catalogManager.existingModels;
@@ -214,10 +239,18 @@ export class UploadManager {
 
     for (const group of grouped) {
       this.currentFilename = group.primaryFile.name;
-      const blobUrl = this.createBlobUrl(group.primaryFile);
+      let uploadFile = group.primaryFile;
+      let blobUrl = this.createBlobUrl(uploadFile);
 
       try {
         const gltf = await gltfLoader.loadAsync(blobUrl);
+
+        // Draco-compressed GLBs are decompressed and re-exported as plain GLB
+        // so the stored model loads with the normal GLTFLoader.
+        if (await isDracoGlb(uploadFile)) {
+          uploadFile = await exportUncompressedGlb(gltf.scene, uploadFile.name);
+          blobUrl = this.createBlobUrl(uploadFile);
+        }
         const meshes: { name: string; part: string }[] = [];
         const seenNames = new Set<string>();
         const warnings: ModelWarning[] = [];
@@ -351,7 +384,7 @@ export class UploadManager {
           targetFolder,
           isNew: !existingModel,
           isModified: !isAlreadyConfigured,
-          rawFile: group.primaryFile,
+          rawFile: uploadFile,
           meshes,
           finishIds,
           defaultFinishId,
@@ -365,9 +398,18 @@ export class UploadManager {
         newAdminModels.push(adminModel);
       } catch (err: any) {
         console.error(`Failed to parse ${group.primaryFile.name}`, err);
+        failedFiles.push(group.primaryFile.name);
       }
 
       this.processedCount++;
+    }
+
+    dracoLoader.dispose();
+    if (failedFiles.length > 0) {
+      alert(
+        `${failedFiles.length} file(s) could not be loaded (see console):\n` +
+          failedFiles.join("\n")
+      );
     }
 
     // Set catalogManager models to dropped models from this folder
