@@ -21825,5 +21825,375 @@
       }
     ],
     "category": "19-Banjo Bolts"
+  },
+  {
+    "id": "AC-06-08-45-WFFD",
+    "name": "AC-06-08-45-WFFD",
+    "url": "/models/Manually Modelled/AC-06-08-45-WFFD.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "Manually Modelled"
+  },
+  {
+    "id": "AC-06-08-90-WFFD",
+    "name": "AC-06-08-90-WFFD",
+    "url": "/models/Manually Modelled/AC-06-08-90-WFFD.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "Manually Modelled"
+  },
+  {
+    "id": "AC-06-08-ST-WFFD",
+    "name": "AC-06-08-ST-WFFD",
+    "url": "/models/Manually Modelled/AC-06-08-ST-WFFD.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "Manually Modelled"
+  },
+  {
+    "id": "AC-08-120-WFFD",
+    "name": "AC-08-120-WFFD",
+    "url": "/models/Manually Modelled/AC-08-120-WFFD.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "Manually Modelled"
+  },
+  {
+    "id": "AC-08-45-WF-DS",
+    "name": "AC-08-45-WF-DS",
+    "url": "/models/Manually Modelled/AC-08-45-WF-DS.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "Manually Modelled"
+  },
+  {
+    "id": "AC-08-45-WFFD",
+    "name": "AC-08-45-WFFD",
+    "url": "/models/Manually Modelled/AC-08-45-WFFD.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "Manually Modelled"
+  },
+  {
+    "id": "AC-10-08-GX",
+    "name": "AC-10-08-GX",
+    "url": "/models/Manually Modelled/AC-10-08-GX.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Nut": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "Manually Modelled"
+  },
+  {
+    "id": "AC-10-30JICDS-X",
+    "name": "AC-10-30JICDS-X",
+    "url": "/models/Manually Modelled/AC-10-30JICDS-X.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Nut": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "Manually Modelled"
+  },
+  {
+    "id": "AC-10-45-WFFD",
+    "name": "AC-10-45-WFFD",
+    "url": "/models/Manually Modelled/AC-10-45-WFFD.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "Manually Modelled"
+  },
+  {
+    "id": "AC-10-90-WFFD",
+    "name": "AC-10-90-WFFD",
+    "url": "/models/Manually Modelled/AC-10-90-WFFD.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "Manually Modelled"
+  },
+  {
+    "id": "AC-10-JX",
+    "name": "AC-10-JX",
+    "url": "/models/Manually Modelled/AC-10-JX.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Nut": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "Manually Modelled"
+  },
+  {
+    "id": "AC-16-45-WFFDDS",
+    "name": "AC-16-45-WFFDDS",
+    "url": "/models/Manually Modelled/AC-16-45-WFFDDS.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "Manually Modelled"
+  },
+  {
+    "id": "AC-16-60JICDS-X",
+    "name": "AC-16-60JICDS-X",
+    "url": "/models/Manually Modelled/AC-16-60JICDS-X.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Nut": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "Manually Modelled"
+  },
+  {
+    "id": "AC-16-90-WFFDDS",
+    "name": "AC-16-90-WFFDDS",
+    "url": "/models/Manually Modelled/AC-16-90-WFFDDS.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "Manually Modelled"
+  },
+  {
+    "id": "AC-20-30JICDS-X",
+    "name": "AC-20-30JICDS-X",
+    "url": "/models/Manually Modelled/AC-20-30JICDS-X.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "materialMap": {
+          "Crimp": "Blue",
+          "Nut": "Blue",
+          "Pipe": "Blue"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "materialMap": {
+          "Crimp": "Black",
+          "Nut": "Black",
+          "Pipe": "Black"
+        }
+      }
+    ],
+    "category": "Manually Modelled"
   }
 ]
