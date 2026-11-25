@@ -22376,5 +22376,736 @@
       }
     ],
     "category": "Smooth Bore Fittings"
+  },
+  {
+    "id": "SB-04-0002-7",
+    "name": "SB-04-0002-7",
+    "url": "/models/SB&PROBlack Models/SB-04-0002-7.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Crimp": "Stainless Steel",
+          "Pipe": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Smooth Bore Fittings"
+  },
+  {
+    "id": "SB-04-0003-7",
+    "name": "SB-04-0003-7",
+    "url": "/models/SB&PROBlack Models/SB-04-0003-7.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Crimp": "Stainless Steel",
+          "Pipe": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Smooth Bore Fittings"
+  },
+  {
+    "id": "SB-04-03-F7",
+    "name": "SB-04-03-F7",
+    "url": "/models/SB&PROBlack Models/SB-04-03-F7.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Crimp": "Stainless Steel",
+          "Nut": "Stainless Steel",
+          "Pipe": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Smooth Bore Fittings"
+  },
+  {
+    "id": "SB-04-03-G7",
+    "name": "SB-04-03-G7",
+    "url": "/models/SB&PROBlack Models/SB-04-03-G7.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Crimp": "Stainless Steel",
+          "Nut": "Stainless Steel",
+          "Pipe": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Smooth Bore Fittings"
+  },
+  {
+    "id": "SB-04-03-H7",
+    "name": "SB-04-03-H7",
+    "url": "/models/SB&PROBlack Models/SB-04-03-H7.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Crimp": "Stainless Steel",
+          "Nut": "Stainless Steel",
+          "Pipe": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Smooth Bore Fittings"
+  },
+  {
+    "id": "SB-04-03-V7",
+    "name": "SB-04-03-V7",
+    "url": "/models/SB&PROBlack Models/SB-04-03-V7.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Crimp": "Stainless Steel",
+          "Nut": "Stainless Steel",
+          "Pipe": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Smooth Bore Fittings"
+  },
+  {
+    "id": "SB-04-0006-7",
+    "name": "SB-04-0006-7",
+    "url": "/models/SB&PROBlack Models/SB-04-0006-7.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Crimp": "Stainless Steel",
+          "Pipe": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Smooth Bore Fittings"
+  },
+  {
+    "id": "SB-04-06-F7-3",
+    "name": "SB-04-06-F7-3",
+    "url": "/models/SB&PROBlack Models/SB-04-06-F7-3.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Crimp": "Stainless Steel",
+          "Nut": "Stainless Steel",
+          "Pipe": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Smooth Bore Fittings"
+  },
+  {
+    "id": "SB-04-06-H7-3",
+    "name": "SB-04-06-H7-3",
+    "url": "/models/SB&PROBlack Models/SB-04-06-H7-3.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Crimp": "Stainless Steel",
+          "Nut": "Stainless Steel",
+          "Pipe": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Smooth Bore Fittings"
+  },
+  {
+    "id": "SB-04-06-M3-00",
+    "name": "SB-04-06-M3-00",
+    "url": "/models/SB&PROBlack Models/SB-04-06-M3-00.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Crimp": "Stainless Steel",
+          "Nut": "Stainless Steel",
+          "Pipe": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Smooth Bore Fittings"
+  },
+  {
+    "id": "SB-04-06-M3-90",
+    "name": "SB-04-06-M3-90",
+    "url": "/models/SB&PROBlack Models/SB-04-06-M3-90.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Crimp": "Stainless Steel",
+          "Nut": "Stainless Steel",
+          "Pipe": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Smooth Bore Fittings"
+  },
+  {
+    "id": "SB-04-08-M3-00",
+    "name": "SB-04-08-M3-00",
+    "url": "/models/SB&PROBlack Models/SB-04-08-M3-00.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Crimp": "Stainless Steel",
+          "Nut": "Stainless Steel",
+          "Pipe": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Smooth Bore Fittings"
+  },
+  {
+    "id": "SB-04-0011-7",
+    "name": "SB-04-0011-7",
+    "url": "/models/SB&PROBlack Models/SB-04-0011-7.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Crimp": "Stainless Steel",
+          "Pipe": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Smooth Bore Fittings"
+  },
+  {
+    "id": "SB-04-0015-X",
+    "name": "SB-04-0015-X",
+    "url": "/models/SB&PROBlack Models/SB-04-0015-X.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Crimp": "Stainless Steel",
+          "Nut": "Stainless Steel",
+          "Pipe": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Smooth Bore Fittings"
+  },
+  {
+    "id": "SB-04-0016-70-3",
+    "name": "SB-04-0016-70-3",
+    "url": "/models/SB&PROBlack Models/SB-04-0016-70-3.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Crimp": "Stainless Steel",
+          "Pipe": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Smooth Bore Fittings"
+  },
+  {
+    "id": "SB-04-0017-7",
+    "name": "SB-04-0017-7",
+    "url": "/models/SB&PROBlack Models/SB-04-0017-7.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Crimp": "Stainless Steel",
+          "Pipe": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Smooth Bore Fittings"
+  },
+  {
+    "id": "SB-04-0029-7",
+    "name": "SB-04-0029-7",
+    "url": "/models/SB&PROBlack Models/SB-04-0029-7.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Crimp": "Stainless Steel",
+          "Pipe": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Smooth Bore Fittings"
+  },
+  {
+    "id": "SB-04-0030-7",
+    "name": "SB-04-0030-7",
+    "url": "/models/SB&PROBlack Models/SB-04-0030-7.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Crimp": "Stainless Steel",
+          "Pipe": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Smooth Bore Fittings"
+  },
+  {
+    "id": "SB-04-0031-7",
+    "name": "SB-04-0031-7",
+    "url": "/models/SB&PROBlack Models/SB-04-0031-7.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Crimp": "Stainless Steel",
+          "Pipe": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Smooth Bore Fittings"
+  },
+  {
+    "id": "SB-04-0035-T",
+    "name": "SB-04-0035-T",
+    "url": "/models/SB&PROBlack Models/SB-04-0035-T.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Crimp": "Stainless Steel",
+          "Pipe": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Smooth Bore Fittings"
+  },
+  {
+    "id": "SB-04-0036-T",
+    "name": "SB-04-0036-T",
+    "url": "/models/SB&PROBlack Models/SB-04-0036-T.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Crimp": "Stainless Steel",
+          "Pipe": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Smooth Bore Fittings"
+  },
+  {
+    "id": "SB-04-0040-00-V",
+    "name": "SB-04-0040-00-V",
+    "url": "/models/SB&PROBlack Models/SB-04-0040-00-V.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Crimp": "Stainless Steel",
+          "Nut": "Stainless Steel",
+          "Pipe": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Smooth Bore Fittings"
+  },
+  {
+    "id": "SB-04-0041-3",
+    "name": "SB-04-0041-3",
+    "url": "/models/SB&PROBlack Models/SB-04-0041-3.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Crimp": "Stainless Steel",
+          "Nut": "Stainless Steel",
+          "Pipe": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Smooth Bore Fittings"
+  },
+  {
+    "id": "SB-04-0057-4",
+    "name": "SB-04-0057-4",
+    "url": "/models/SB&PROBlack Models/SB-04-0057-4.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Crimp": "Stainless Steel",
+          "Nut": "Stainless Steel",
+          "Pipe": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Smooth Bore Fittings"
+  },
+  {
+    "id": "SB-04-90-M14",
+    "name": "SB-04-90-M14",
+    "url": "/models/SB&PROBlack Models/SB-04-90-M14.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Crimp": "Stainless Steel",
+          "Nut": "Stainless Steel",
+          "Pipe": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Smooth Bore Fittings"
+  },
+  {
+    "id": "SB-04-BJ-04-3",
+    "name": "SB-04-BJ-04-3",
+    "url": "/models/SB&PROBlack Models/SB-04-BJ-04-3.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Crimp": "Stainless Steel",
+          "Pipe": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Smooth Bore Fittings"
+  },
+  {
+    "id": "SB-04-F3",
+    "name": "SB-04-F3",
+    "url": "/models/SB&PROBlack Models/SB-04-F3.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Crimp": "Stainless Steel",
+          "Nut": "Stainless Steel",
+          "Pipe": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Smooth Bore Fittings"
+  },
+  {
+    "id": "SB-04-G3",
+    "name": "SB-04-G3",
+    "url": "/models/SB&PROBlack Models/SB-04-G3.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Crimp": "Stainless Steel",
+          "Nut": "Stainless Steel",
+          "Pipe": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Smooth Bore Fittings"
+  },
+  {
+    "id": "SB-04-H3",
+    "name": "SB-04-H3",
+    "url": "/models/SB&PROBlack Models/SB-04-H3.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Crimp": "Stainless Steel",
+          "Nut": "Stainless Steel",
+          "Pipe": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Smooth Bore Fittings"
+  },
+  {
+    "id": "SB-04-J7",
+    "name": "SB-04-J7",
+    "url": "/models/SB&PROBlack Models/SB-04-J7.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Crimp": "Stainless Steel",
+          "Nut": "Stainless Steel",
+          "Pipe": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Smooth Bore Fittings"
+  },
+  {
+    "id": "SB-04-M3-00",
+    "name": "SB-04-M3-00",
+    "url": "/models/SB&PROBlack Models/SB-04-M3-00.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Crimp": "Stainless Steel",
+          "Nut": "Stainless Steel",
+          "Pipe": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Smooth Bore Fittings"
+  },
+  {
+    "id": "SB-04-M3-90-M14",
+    "name": "SB-04-M3-90-M14",
+    "url": "/models/SB&PROBlack Models/SB-04-M3-90-M14.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Crimp": "Stainless Steel",
+          "Nut": "Stainless Steel",
+          "Pipe": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Smooth Bore Fittings"
+  },
+  {
+    "id": "SB-04-M3-90",
+    "name": "SB-04-M3-90",
+    "url": "/models/SB&PROBlack Models/SB-04-M3-90.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Crimp": "Stainless Steel",
+          "Nut": "Stainless Steel",
+          "Pipe": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Smooth Bore Fittings"
+  },
+  {
+    "id": "SB-04-M7-00-M10",
+    "name": "SB-04-M7-00-M10",
+    "url": "/models/SB&PROBlack Models/SB-04-M7-00-M10.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Crimp": "Stainless Steel",
+          "Nut": "Stainless Steel",
+          "Pipe": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Smooth Bore Fittings"
+  },
+  {
+    "id": "SB-04-M7-45",
+    "name": "SB-04-M7-45",
+    "url": "/models/SB&PROBlack Models/SB-04-M7-45.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Crimp": "Stainless Steel",
+          "Nut": "Stainless Steel",
+          "Pipe": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Smooth Bore Fittings"
+  },
+  {
+    "id": "SB-04-P7",
+    "name": "SB-04-P7",
+    "url": "/models/SB&PROBlack Models/SB-04-P7.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Crimp": "Stainless Steel",
+          "Nut": "Stainless Steel",
+          "Pipe": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Smooth Bore Fittings"
+  },
+  {
+    "id": "SB-04-R7",
+    "name": "SB-04-R7",
+    "url": "/models/SB&PROBlack Models/SB-04-R7.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Crimp": "Stainless Steel",
+          "Nut": "Stainless Steel",
+          "Pipe": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Smooth Bore Fittings"
+  },
+  {
+    "id": "SB-03-0081",
+    "name": "SB-03-0081",
+    "url": "/models/SB&PROBlack Models/SB-03-0081.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Crimp": "Stainless Steel",
+          "Pipe": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Smooth Bore Fittings"
+  },
+  {
+    "id": "SBR-02-03-BJ-7",
+    "name": "SBR-02-03-BJ-7",
+    "url": "/models/SB&PROBlack Models/SBR-02-03-BJ-7.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Pipe": "Stainless Steel",
+          "Socket": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Smooth Bore Fittings"
+  },
+  {
+    "id": "SB-04-M7-90-M10",
+    "name": "SB-04-M7-90-M10",
+    "url": "/models/SB&PROBlack Models/SB-04-M7-90-M10.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Crimp": "Stainless Steel",
+          "Nut": "Stainless Steel",
+          "Pipe": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Smooth Bore Fittings"
+  },
+  {
+    "id": "SB-443-03BN-7",
+    "name": "SB-443-03BN-7",
+    "url": "/models/SB&PROBlack Models/SB-443-03BN-7.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Crimp": "Stainless Steel",
+          "Nut": "Stainless Steel",
+          "Pipe": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Smooth Bore Fittings"
+  },
+  {
+    "id": "SB-04-BJ-M10-3",
+    "name": "SB-04-BJ-M10-3",
+    "url": "/models/SB&PROBlack Models/SB-04-BJ-M10-3.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Crimp": "Stainless Steel",
+          "Pipe": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Smooth Bore Fittings"
+  },
+  {
+    "id": "SB-04-BJ-M12-3",
+    "name": "SB-04-BJ-M12-3",
+    "url": "/models/SB&PROBlack Models/SB-04-BJ-M12-3.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Crimp": "Stainless Steel",
+          "Pipe": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Smooth Bore Fittings"
+  },
+  {
+    "id": "SB-04-BJ-M14-3",
+    "name": "SB-04-BJ-M14-3",
+    "url": "/models/SB&PROBlack Models/SB-04-BJ-M14-3.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Crimp": "Stainless Steel",
+          "Pipe": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Smooth Bore Fittings"
   }
 ]
