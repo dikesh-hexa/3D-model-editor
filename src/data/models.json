@@ -21762,7 +21762,7 @@
         }
       }
     ],
-    "category": "19-Banjo Bolts"
+    "category": "Banjo Bolts"
   },
   {
     "id": "19-0046-02-X",
@@ -21778,7 +21778,7 @@
         }
       }
     ],
-    "category": "19-Banjo Bolts"
+    "category": "Banjo Bolts"
   },
   {
     "id": "19-0061-06-X",
@@ -21793,7 +21793,7 @@
         }
       }
     ],
-    "category": "19-Banjo Bolts"
+    "category": "Banjo Bolts"
   },
   {
     "id": "19-0073-03-X",
@@ -21809,7 +21809,7 @@
         }
       }
     ],
-    "category": "19-Banjo Bolts"
+    "category": "Banjo Bolts"
   },
   {
     "id": "BN704P",
@@ -21824,7 +21824,7 @@
         }
       }
     ],
-    "category": "19-Banjo Bolts"
+    "category": "Banjo Bolts"
   },
   {
     "id": "AC-06-08-45-WFFD",
@@ -23155,5 +23155,337 @@
       }
     ],
     "category": "Smooth Bore Fittings"
+  },
+  {
+    "id": "BJB-02-1-7",
+    "name": "BJB-02-1-7",
+    "url": "/models/ClientModel/BJB-02-1-7.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Bolt": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Banjo Bolts"
+  },
+  {
+    "id": "BJB-02-1-7S-W",
+    "name": "BJB-02-1-7S-W",
+    "url": "/models/ClientModel/BJB-02-1-7S-W.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Bolt": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Banjo Bolts"
+  },
+  {
+    "id": "BJB-02-2-3",
+    "name": "BJB-02-2-3",
+    "url": "/models/ClientModel/BJB-02-2-3.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Bolt": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Banjo Bolts"
+  },
+  {
+    "id": "BJB-02-3-7",
+    "name": "BJB-02-3-7",
+    "url": "/models/ClientModel/BJB-02-3-7.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Bolt": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Banjo Bolts"
+  },
+  {
+    "id": "BJB-03-1-7",
+    "name": "BJB-03-1-7",
+    "url": "/models/ClientModel/BJB-03-1-7.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Bolt": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Banjo Bolts"
+  },
+  {
+    "id": "BJB-03-1-7S",
+    "name": "BJB-03-1-7S",
+    "url": "/models/ClientModel/BJB-03-1-7S.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Bolt": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Banjo Bolts"
+  },
+  {
+    "id": "BJB-03-2-3-L",
+    "name": "BJB-03-2-3-L",
+    "url": "/models/ClientModel/BJB-03-2-3-L.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Bolt": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Banjo Bolts"
+  },
+  {
+    "id": "BJB-03-2-3-S",
+    "name": "BJB-03-2-3-S",
+    "url": "/models/ClientModel/BJB-03-2-3-S.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Bolt": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Banjo Bolts"
+  },
+  {
+    "id": "BJB-03-2-3",
+    "name": "BJB-03-2-3",
+    "url": "/models/ClientModel/BJB-03-2-3.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Bolt": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Banjo Bolts"
+  },
+  {
+    "id": "BJB-03-2-7S-W",
+    "name": "BJB-03-2-7S-W",
+    "url": "/models/ClientModel/BJB-03-2-7S-W.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Bolt": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Banjo Bolts"
+  },
+  {
+    "id": "BJB-03-3-3-L",
+    "name": "BJB-03-3-3-L",
+    "url": "/models/ClientModel/BJB-03-3-3-L.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Bolt": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Banjo Bolts"
+  },
+  {
+    "id": "BJB-03-3-3",
+    "name": "BJB-03-3-3",
+    "url": "/models/ClientModel/BJB-03-3-3.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Bolt": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Banjo Bolts"
+  },
+  {
+    "id": "BJB-04-7",
+    "name": "BJB-04-7",
+    "url": "/models/ClientModel/BJB-04-7.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Bolt": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Banjo Bolts"
+  },
+  {
+    "id": "BJB-06-3",
+    "name": "BJB-06-3",
+    "url": "/models/ClientModel/BJB-06-3.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Bolt": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Banjo Bolts"
+  },
+  {
+    "id": "BJB-06-M14-3",
+    "name": "BJB-06-M14-3",
+    "url": "/models/ClientModel/BJB-06-M14-3.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Bolt": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Banjo Bolts"
+  },
+  {
+    "id": "BJBD-03-1-7",
+    "name": "BJBD-03-1-7",
+    "url": "/models/ClientModel/BJBD-03-1-7.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Bolt": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Banjo Bolts"
+  },
+  {
+    "id": "992-04-M121P",
+    "name": "992-04-M121P",
+    "url": "/models/ClientModel/992-04-M121P.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Bolt": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Banjo Bolts"
+  },
+  {
+    "id": "BJB-04-M12-3",
+    "name": "BJB-04-M12-3",
+    "url": "/models/ClientModel/BJB-04-M12-3.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Bolt": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Banjo Bolts"
+  },
+  {
+    "id": "BJB-04-M12-P",
+    "name": "BJB-04-M12-P",
+    "url": "/models/ClientModel/BJB-04-M12-P.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Bolt": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Banjo Bolts"
+  },
+  {
+    "id": "BJB-M18x1.5-4",
+    "name": "BJB-M18x1.5-4",
+    "url": "/models/ClientModel/BJB-M18x1.5-4.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Bolt": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Banjo Bolts"
+  },
+  {
+    "id": "19-0034-04-7",
+    "name": "19-0034-04-7",
+    "url": "/models/ClientModel/19-0034-04-7.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Bolt": "Stainless Steel",
+          "Nut": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Banjo Bolts"
+  },
+  {
+    "id": "19-0050-03-7",
+    "name": "19-0050-03-7",
+    "url": "/models/ClientModel/19-0050-03-7.glb",
+    "colorCombination": [
+      {
+        "id": 1,
+        "name": "Stainless Steel",
+        "materialMap": {
+          "Bolt": "Stainless Steel",
+          "Nut": "Stainless Steel"
+        }
+      }
+    ],
+    "category": "Banjo Bolts"
   }
 ]
