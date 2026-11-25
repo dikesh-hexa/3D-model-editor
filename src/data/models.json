@@ -1988,131 +1988,6 @@
     "category": "Smooth Bore Fittings"
   },
   {
-    "id": "PL-24-30JIC-X",
-    "name": "PL-24-30JIC-X",
-    "url": "/models/ClientModel/PL-24-30JIC-X.glb",
-    "category": "PROGold Fittings",
-    "finishIds": [
-      "aluminium-blue",
-      "aluminium-black",
-      "stainless-steel",
-      "ss-blue-nut",
-      "ss-black-nut",
-      "plated-steel",
-      "blue-gold",
-      "blue-red"
-    ],
-    "defaultFinishId": "aluminium-blue",
-    "partNumbers": {
-      "aluminium-blue": "PL-24-30JIC-3"
-    },
-    "meshes": [
-      {
-        "name": "Nut",
-        "part": "Nut"
-      },
-      {
-        "name": "Pipe",
-        "part": "Pipe"
-      },
-      {
-        "name": "PressLock",
-        "part": "Press Lock"
-      }
-    ],
-    "overrides": {},
-    "colorCombination": [
-      {
-        "id": 1,
-        "finishId": "aluminium-blue",
-        "name": "Aluminium Blue",
-        "defaultCrimp": "Gold",
-        "materialMap": {
-          "Nut": "Blue",
-          "Pipe": "Blue",
-          "PressLock": "Gold"
-        }
-      },
-      {
-        "id": 2,
-        "finishId": "aluminium-black",
-        "name": "Aluminium Black",
-        "defaultCrimp": "Black",
-        "materialMap": {
-          "Nut": "Black",
-          "Pipe": "Black",
-          "PressLock": "Black"
-        }
-      },
-      {
-        "id": 3,
-        "finishId": "stainless-steel",
-        "name": "Stainless Steel",
-        "defaultCrimp": "Stainless",
-        "materialMap": {
-          "Nut": "Stainless Steel",
-          "Pipe": "Stainless Steel",
-          "PressLock": "Stainless Steel"
-        }
-      },
-      {
-        "id": 4,
-        "finishId": "ss-blue-nut",
-        "name": "Stainless Steel with Aluminium Blue Nut",
-        "defaultCrimp": "Stainless",
-        "materialMap": {
-          "Nut": "Blue",
-          "Pipe": "Stainless Steel",
-          "PressLock": "Stainless Steel"
-        }
-      },
-      {
-        "id": 5,
-        "finishId": "ss-black-nut",
-        "name": "Stainless Steel with Aluminium Black Nut",
-        "defaultCrimp": "Stainless",
-        "materialMap": {
-          "Nut": "Black",
-          "Pipe": "Stainless Steel",
-          "PressLock": "Stainless Steel"
-        }
-      },
-      {
-        "id": 6,
-        "finishId": "plated-steel",
-        "name": "Plated Steel",
-        "defaultCrimp": "Clear Ano.",
-        "materialMap": {
-          "Nut": "Plated Steel",
-          "Pipe": "Plated Steel",
-          "PressLock": "Plated Steel"
-        }
-      },
-      {
-        "id": 7,
-        "finishId": "blue-gold",
-        "name": "Blue Gold",
-        "defaultCrimp": "Gold",
-        "materialMap": {
-          "Nut": "Blue",
-          "Pipe": "Blue",
-          "PressLock": "Gold"
-        }
-      },
-      {
-        "id": 8,
-        "finishId": "blue-red",
-        "name": "Blue Red",
-        "defaultCrimp": "Red",
-        "materialMap": {
-          "Nut": "Blue",
-          "Pipe": "Blue",
-          "PressLock": "Red"
-        }
-      }
-    ]
-  },
-  {
     "id": "AR-12-G3",
     "name": "AR-12-G3",
     "url": "/models/ClientModel/AR-12-G3.glb",
@@ -4538,32 +4413,6 @@
     "category": "PROGold Fittings"
   },
   {
-    "id": "AC-06-F7-X",
-    "name": "AC-06-F7-X",
-    "url": "/models/ClientModel/AC-06-F7-X.glb",
-    "colorCombination": [
-      {
-        "id": 1,
-        "name": "Blue",
-        "materialMap": {
-          "Crimp": "Blue",
-          "Nut": "Blue",
-          "Pipe": "Blue"
-        }
-      },
-      {
-        "id": 2,
-        "name": "Black",
-        "materialMap": {
-          "Crimp": "Black",
-          "Nut": "Black",
-          "Pipe": "Black"
-        }
-      }
-    ],
-    "category": "PROGold Fittings"
-  },
-  {
     "id": "AC-06-F7",
     "name": "AC-06-F7",
     "url": "/models/ClientModel/AC-06-F7.glb",
@@ -4642,32 +4491,6 @@
     "category": "PROGold Fittings"
   },
   {
-    "id": "AC-06-G7-X",
-    "name": "AC-06-G7-X",
-    "url": "/models/ClientModel/AC-06-G7-X.glb",
-    "colorCombination": [
-      {
-        "id": 1,
-        "name": "Blue",
-        "materialMap": {
-          "Crimp": "Blue",
-          "Nut": "Blue",
-          "Pipe": "Blue"
-        }
-      },
-      {
-        "id": 2,
-        "name": "Black",
-        "materialMap": {
-          "Crimp": "Black",
-          "Nut": "Black",
-          "Pipe": "Black"
-        }
-      }
-    ],
-    "category": "PROGold Fittings"
-  },
-  {
     "id": "AC-06-G7",
     "name": "AC-06-G7",
     "url": "/models/ClientModel/AC-06-G7.glb",
@@ -4723,32 +4546,6 @@
     "id": "AC-06-H3",
     "name": "AC-06-H3",
     "url": "/models/ClientModel/AC-06-H3.glb",
-    "colorCombination": [
-      {
-        "id": 1,
-        "name": "Blue",
-        "materialMap": {
-          "Crimp": "Blue",
-          "Nut": "Blue",
-          "Pipe": "Blue"
-        }
-      },
-      {
-        "id": 2,
-        "name": "Black",
-        "materialMap": {
-          "Crimp": "Black",
-          "Nut": "Black",
-          "Pipe": "Black"
-        }
-      }
-    ],
-    "category": "PROGold Fittings"
-  },
-  {
-    "id": "AC-06-H7-X",
-    "name": "AC-06-H7-X",
-    "url": "/models/ClientModel/AC-06-H7-X.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -12685,34 +12482,6 @@
     "category": "PROGold Fittings"
   },
   {
-    "id": "AC-12-90-M30-X",
-    "name": "AC-12-90-M30-X",
-    "url": "/models/ClientModel/AC-12-90-M30-4.glb",
-    "colorCombination": [
-      {
-        "id": 1,
-        "name": "Blue",
-        "materialMap": {
-          "Nut": "Blue",
-          "NutHead": "Blue",
-          "Crimp": "Blue",
-          "Pipe": "Blue"
-        }
-      },
-      {
-        "id": 2,
-        "name": "Black",
-        "materialMap": {
-          "Nut": "Black",
-          "NutHead": "Black",
-          "Crimp": "Black",
-          "Pipe": "Black"
-        }
-      }
-    ],
-    "category": "PROGold Fittings"
-  },
-  {
     "id": "AC-12-90-WF-DS",
     "name": "AC-12-90-WF-DS",
     "url": "/models/ClientModel/AC-12-90-WF-DS.glb",
@@ -13945,22 +13714,6 @@
     "category": "Smooth Bore Fittings"
   },
   {
-    "id": "SB-03-0033-X",
-    "name": "SB-03-0033-X",
-    "url": "/models/SB&PROBlack Models/SB-03-0033-7.glb",
-    "colorCombination": [
-      {
-        "id": 1,
-        "name": "Stainless Steel",
-        "materialMap": {
-          "Nut": "Stainless Steel",
-          "Crimp": "Stainless Steel"
-        }
-      }
-    ],
-    "category": "Smooth Bore Fittings"
-  },
-  {
     "id": "SB-03-0040-00-X",
     "name": "SB-03-0040-00-X",
     "url": "/models/SB&PROBlack Models/SB-03-0040-00-X.glb",
@@ -14004,23 +13757,6 @@
           "Crimp": "Stainless Steel",
           "Nut": "Stainless Steel",
           "Pipe": "Stainless Steel"
-        }
-      }
-    ],
-    "category": "Smooth Bore Fittings"
-  },
-  {
-    "id": "SB-03-0072-X",
-    "name": "SB-03-0072-X",
-    "url": "/models/SB&PROBlack Models/SB-03-0072-4.glb",
-    "colorCombination": [
-      {
-        "id": 1,
-        "name": "Black",
-        "materialMap": {
-          "Pipe": "Black",
-          "Nut": "Black",
-          "Crimp": "Black"
         }
       }
     ],
@@ -14195,22 +13931,6 @@
     "category": "Smooth Bore Fittings"
   },
   {
-    "id": "SB-03-BJ-E45-X",
-    "name": "SB-03-BJ-E45-X",
-    "url": "/models/SB&PROBlack Models/SB-03-BJ-E45-7.glb",
-    "colorCombination": [
-      {
-        "id": 1,
-        "name": "Stainless Steel",
-        "materialMap": {
-          "Pipe": "Stainless Steel",
-          "Crimp": "Stainless Steel"
-        }
-      }
-    ],
-    "category": "Smooth Bore Fittings"
-  },
-  {
     "id": "SB-03-BJ-E60-X",
     "name": "SB-03-BJ-E60-X",
     "url": "/models/SB&PROBlack Models/SB-03-BJ-E60-X.glb",
@@ -14243,30 +13963,6 @@
     "category": "Smooth Bore Fittings"
   },
   {
-    "id": "SB-03-BJ-M10-X",
-    "name": "SB-03-BJ-M10-X",
-    "url": "/models/SB&PROBlack Models/SB-03-BJ-M10-7.glb",
-    "colorCombination": [
-      {
-        "id": 1,
-        "name": "Stainless Steel",
-        "materialMap": {
-          "Pipe": "Stainless Steel",
-          "Crimp": "Stainless Steel"
-        }
-      },
-      {
-        "id": 2,
-        "name": "Blue",
-        "materialMap": {
-          "Pipe": "Blue",
-          "Crimp": "Blue"
-        }
-      }
-    ],
-    "category": "Smooth Bore Fittings"
-  },
-  {
     "id": "SB-03-BJ-M8-X",
     "name": "SB-03-BJ-M8-X",
     "url": "/models/SB&PROBlack Models/SB-03-BJ-M8-X.glb",
@@ -14277,22 +13973,6 @@
         "materialMap": {
           "Crimp": "Stainless Steel",
           "Pipe": "Stainless Steel"
-        }
-      }
-    ],
-    "category": "Smooth Bore Fittings"
-  },
-  {
-    "id": "SB-03-BJ-SB25-X",
-    "name": "SB-03-BJ-SB25-X",
-    "url": "/models/SB&PROBlack Models/SB-03-BJ-SB25-7.glb",
-    "colorCombination": [
-      {
-        "id": 1,
-        "name": "Stainless Steel",
-        "materialMap": {
-          "Pipe": "Stainless Steel",
-          "Crimp": "Stainless Steel"
         }
       }
     ],
@@ -14325,38 +14005,6 @@
         "materialMap": {
           "Crimp": "Stainless Steel",
           "Pipe": "Stainless Steel"
-        }
-      }
-    ],
-    "category": "Smooth Bore Fittings"
-  },
-  {
-    "id": "SB-03-BJT-M10-X",
-    "name": "SB-03-BJT-M10-X",
-    "url": "/models/SB&PROBlack Models/SB-03-BJT-M10-7.glb",
-    "colorCombination": [
-      {
-        "id": 1,
-        "name": "Stainless Steel",
-        "materialMap": {
-          "Pipe": "Stainless Steel",
-          "Crimp": "Stainless Steel"
-        }
-      }
-    ],
-    "category": "Smooth Bore Fittings"
-  },
-  {
-    "id": "SB-03-DBJ-M10-X",
-    "name": "SB-03-DBJ-M10-X",
-    "url": "/models/SB&PROBlack Models/SB-03-DBJ-M10-7.glb",
-    "colorCombination": [
-      {
-        "id": 1,
-        "name": "Stainless Steel",
-        "materialMap": {
-          "Pipe": "Stainless Steel",
-          "Crimp": "Stainless Steel"
         }
       }
     ],
@@ -14553,39 +14201,6 @@
     "id": "SB-03-V7",
     "name": "SB-03-V7",
     "url": "/models/SB&PROBlack Models/SB-03-V7.glb",
-    "colorCombination": [
-      {
-        "id": 1,
-        "name": "Stainless Steel",
-        "materialMap": {
-          "Crimp": "Stainless Steel",
-          "Nut": "Stainless Steel",
-          "Pipe": "Stainless Steel"
-        }
-      }
-    ],
-    "category": "Smooth Bore Fittings"
-  },
-  {
-    "id": "SB-03DBJ90M10-X",
-    "name": "SB-03DBJ90M10-X",
-    "url": "/models/SB&PROBlack Models/SB-03DBJ90M10-7.glb",
-    "colorCombination": [
-      {
-        "id": 1,
-        "name": "Stainless Steel",
-        "materialMap": {
-          "Pipe": "Stainless Steel",
-          "Crimp": "Stainless Steel"
-        }
-      }
-    ],
-    "category": "Smooth Bore Fittings"
-  },
-  {
-    "id": "SB-443-03BN-X",
-    "name": "SB-443-03BN-X",
-    "url": "/models/SB&PROBlack Models/SB-443-03BN-X.glb",
     "colorCombination": [
       {
         "id": 1,
@@ -21824,7 +21439,7 @@
         }
       }
     ],
-    "category": "Banjo Bolts"
+    "category": "Smooth Bore Fittings"
   },
   {
     "id": "AC-06-08-45-WFFD",
