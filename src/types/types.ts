@@ -70,4 +70,6 @@ export interface LoadedModelProps {
   selectedMaterial: ColorCombination | null;
   selectedCrimpColor?: CrimpColor | null;
   currentModel?: ModelFile | null;
+  /** Show the A/B/C dimension overlay (Manually Modelled only). Default true. */
+  dimensionsVisible?: boolean;
 }

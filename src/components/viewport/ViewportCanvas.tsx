@@ -1,13 +1,14 @@
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import * as THREE from "three";
-import { Suspense, useRef } from "react";
+import { Suspense, useRef, useState } from "react";
 import { observer } from "mobx-react-lite";
 import { LoadedModel } from "./LoadedModel";
 import { Loader } from "./Loader";
 import { Env } from "./Env";
 import { useMainContext } from "../../context/MainContext";
 import { NormalizedModelGroup } from "./NormalizedModelGroup";
+import { isManuallyModelled } from "../../utils/dimensionUtils";
 
 export const ViewportCanvas = observer(() => {
   const stateManager = useMainContext();
@@ -15,6 +16,7 @@ export const ViewportCanvas = observer(() => {
   const { sideBarManager } = stateManager.designManager;
 
   const modelRef = useRef<THREE.Group | null>(null);
+  const [dimensionsVisible, setDimensionsVisible] = useState(true);
 
   const modelUrl = sideBarManager.selectedModel?.url;
   const selectedMeshUuid = modelLoadManager.selectedMeshUuid;
@@ -33,6 +35,28 @@ export const ViewportCanvas = observer(() => {
             {sideBarManager.selectedModel.name}
           </h2>
         </div>
+      )}
+      {modelUrl && isManuallyModelled(sideBarManager.selectedModel, modelUrl) && (
+        <button
+          type="button"
+          role="switch"
+          aria-checked={dimensionsVisible}
+          onClick={() => setDimensionsVisible((v) => !v)}
+          className="absolute top-6 right-6 z-10 flex items-center gap-2 rounded-full bg-white/90 py-1.5 pl-3 pr-1.5 text-sm font-medium text-gray-800 shadow-md backdrop-blur hover:bg-white cursor-pointer"
+        >
+          Dimensions
+          <span
+            className={`relative h-6 w-11 rounded-full transition-colors ${
+              dimensionsVisible ? "bg-green-500" : "bg-gray-400"
+            }`}
+          >
+            <span
+              className={`absolute top-0.5 h-5 w-5 rounded-full bg-white shadow transition-all ${
+                dimensionsVisible ? "left-[1.375rem]" : "left-0.5"
+              }`}
+            />
+          </span>
+        </button>
       )}
       <Canvas
         camera={{ position: [0, 2, 7.5], fov: 45, near: 0.1, far: 15 }}
@@ -58,6 +82,7 @@ export const ViewportCanvas = observer(() => {
                 selectedMaterial={sideBarManager.selectedMaterial}
                 selectedCrimpColor={sideBarManager.selectedCrimpColor}
                 currentModel={sideBarManager.selectedModel}
+                dimensionsVisible={dimensionsVisible}
               />
             </NormalizedModelGroup>
           </Suspense>

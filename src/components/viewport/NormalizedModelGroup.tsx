@@ -1,6 +1,7 @@
 import React, { useRef, useLayoutEffect, useState } from "react";
 import * as THREE from "three";
 import { ContactShadows } from "@react-three/drei";
+import { EXCLUDE_FROM_BOUNDS } from "../../utils/dimensionUtils";
 
 interface NormalizedModelGroupProps {
   children: React.ReactNode;
@@ -39,7 +40,20 @@ export function NormalizedModelGroup({
     groupRef.current.updateMatrixWorld(true);
 
     // 2. Calculate the bounding box of the loaded model
-    const box = new THREE.Box3().setFromObject(groupRef.current);
+    // Dimension overlays (flagged with userData.excludeFromBounds) must not
+    // influence the model's size/centering.
+    const box = new THREE.Box3();
+    const tmp = new THREE.Box3();
+    const walk = (o: THREE.Object3D) => {
+      if (o.userData?.[EXCLUDE_FROM_BOUNDS]) return;
+      const geo = (o as THREE.Mesh).geometry as THREE.BufferGeometry | undefined;
+      if (geo) {
+        if (!geo.boundingBox) geo.computeBoundingBox();
+        if (geo.boundingBox) box.union(tmp.copy(geo.boundingBox).applyMatrix4(o.matrixWorld));
+      }
+      o.children.forEach(walk);
+    };
+    walk(groupRef.current);
     if (box.isEmpty()) return;
 
     // 3. Find its current center and size

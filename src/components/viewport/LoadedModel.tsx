@@ -6,6 +6,8 @@ import materialsDataRaw from "../../data/materials.json";
 import partAliasesData from "../../data/partAliases.json";
 import { resolvePart } from "../../utils/finishUtils";
 import { sharedMaterialCache } from "../../utils/materialCache";
+import { isManuallyModelled } from "../../utils/dimensionUtils";
+import { ModelDimensions } from "./ModelDimensions";
 
 const materialsData = materialsDataRaw.materials;
 
@@ -132,6 +134,7 @@ export function LoadedModel({
   selectedMaterial,
   selectedCrimpColor,
   currentModel,
+  dimensionsVisible = true,
 }: LoadedModelProps) {
   // Apply encodeURI so paths containing spaces or '&' (e.g. SB&PROBlack Models) load cleanly
   const safeUrl = useMemo(() => {
@@ -152,6 +155,12 @@ export function LoadedModel({
     }
     return null;
   }, [materialGltf]);
+
+  // Dimension overlay (A/B/C) is only for the Manually Modelled collection
+  const showDimensions = dimensionsVisible && isManuallyModelled(currentModel, url);
+  const dimensionModelName =
+    currentModel?.name ??
+    decodeURI(url).split("/").pop()?.replace(/\.glb$/i, "");
 
   useEffect(() => {
     if (scene) {
@@ -182,6 +191,7 @@ export function LoadedModel({
         }
         return null;
       })}
+      {showDimensions && scene && <ModelDimensions scene={scene} modelName={dimensionModelName} />}
     </group>
   );
 }
