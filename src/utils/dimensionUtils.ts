@@ -35,12 +35,19 @@ export function isManuallyModelled(
   return !!url && decodeURI(url).includes(`/${MANUAL_MODEL_CATEGORY}/`);
 }
 
-/** Fixed dimension values (mm) for a model, from src/data/modelDimensions.json. */
-export function getFixedDimensions(
-  modelName?: string | null
-): Partial<Record<DimensionKey, number>> {
+/** Per-model settings from src/data/modelDimensions.json. */
+export interface ModelDimensionConfig {
+  /** Fixed value (mm) for a single-point Dim_A */
+  A?: number;
+  /** Also draw a dotted line along DE -> E (only for models that need it) */
+  chainSpanLine?: boolean;
+  /** Place the DE -> E chain dimension above its measured points. */
+  chainSpanAbove?: boolean;
+}
+
+export function getFixedDimensions(modelName?: string | null): ModelDimensionConfig {
   if (!modelName) return {};
-  const all = fixedDimensionsRaw as Record<string, Partial<Record<DimensionKey, number>>>;
+  const all = fixedDimensionsRaw as Record<string, ModelDimensionConfig>;
   return all[modelName] ?? {};
 }
 
@@ -74,7 +81,7 @@ const mm = (metres: number) => (metres * 1000).toFixed(2);
 
 export function buildDimensionLayouts(
   scene: THREE.Object3D,
-  fixed: Partial<Record<DimensionKey, number>> = {}
+  fixed: ModelDimensionConfig = {}
 ): DimensionLayout[] {
   scene.updateMatrixWorld(true);
 
@@ -105,10 +112,22 @@ export function buildDimensionLayouts(
 
   // 3. Common plane: normal = axis along which the points vary least; the plane
   //    passes through the model's centre on that axis.
-  const ptsBox = new THREE.Box3().setFromPoints(allPts);
+  //    The single Dim_A point may sit off-plane (it marks a surface), so it is
+  //    ignored when other points exist. Collinear points give no plane, so the
+  //    default view plane (XY, normal Z) wins whenever the points are flat in Z.
+  const refPts = [...pairs.flatMap((f) => [f.p1, f.p2]), ...(chain ?? [])];
+  const ptsBox = new THREE.Box3().setFromPoints(refPts.length ? refPts : allPts);
   const ext = ptsBox.getSize(new THREE.Vector3());
+  const bs = box.getSize(new THREE.Vector3());
+  const flatTol = Math.max(bs.x, bs.y, bs.z) * 0.01;
   const axis: "x" | "y" | "z" =
-    ext.x <= ext.y && ext.x <= ext.z ? "x" : ext.y <= ext.z ? "y" : "z";
+    ext.z <= flatTol
+      ? "z"
+      : ext.x <= ext.y && ext.x <= ext.z
+        ? "x"
+        : ext.y <= ext.z
+          ? "y"
+          : "z";
   const normal = new THREE.Vector3();
   normal[axis] = 1;
   const planeValue = box.isEmpty()
@@ -222,6 +241,7 @@ export function buildDimensionLayouts(
   // 4b. Two-point dimensions
   // Extension lines already drawn (origin + direction + owner length), so a
   // dotted span is not duplicated on top of a longer dimension's extension line.
+  const usedLevels: { dir: THREE.Vector3; level: number }[] = [];
   const extAxes: { origin: THREE.Vector3; dir: THREE.Vector3; length: number }[] = [];
   for (const { key, p1, p2, length } of projectedPairs) {
     const mid = p1.clone().add(p2).multiplyScalar(0.5);
@@ -279,6 +299,7 @@ export function buildDimensionLayouts(
         Math.abs(e.dir.dot(t)) > 0.999 &&
         p1.clone().sub(e.origin).cross(e.dir).length() < margin * 0.05
     );
+    usedLevels.push({ dir: p.clone(), level: d1.dot(p) });
     extAxes.push({ origin: p1.clone(), dir: p.clone(), length }, { origin: p2.clone(), dir: p.clone(), length });
 
     layouts.push({
@@ -350,18 +371,29 @@ export function buildDimensionLayouts(
     const t = Math.abs(span.dot(uAxis)) >= Math.abs(span.dot(vAxis)) ? uAxis : vAxis;
     const p = (t === uAxis ? vAxis : uAxis).clone();
     const meanPt = D.clone().add(DE).add(E).multiplyScalar(1 / 3);
-    if (reachAlong(meanPt, p.clone().negate()) < reachAlong(meanPt, p)) p.negate();
-    const level = Math.max(...[DE, E].map((pt) => pt.dot(p) + reachAlong(pt, p))) + margin * 0.8;
+    if (fixed.chainSpanAbove && t === uAxis) {
+      // For a horizontal DE -> E span, positive v is the upper side of the
+      // measured points in the dimension plane.
+      if (p.dot(vAxis) < 0) p.negate();
+    } else if (reachAlong(meanPt, p.clone().negate()) <= reachAlong(meanPt, p)) {
+      p.negate();
+    }
+    let level = Math.max(...[DE, E].map((pt) => pt.dot(p) + reachAlong(pt, p))) + margin * 0.8;
+    // Stay outside any dimension line already drawn on the same side (e.g. B)
+    for (const u of usedLevels) {
+      if (u.dir.dot(p) > 0.999) level = Math.max(level, u.level + margin * 1.2);
+    }
     const onLine = (pt: THREE.Vector3) => pt.clone().addScaledVector(p, level - pt.dot(p));
     const [L2, L3] = [DE, E].map(onLine);
     ext(DE, p, level - DE.dot(p));
     ext(E, p, level - E.dot(p));
     dimension(L2, L3, p, `${mm(Math.abs(span.dot(t)))} mm`, alignFor(p));
 
-    // Slanted segment D -> DE: parallel to the D-DE line, on the same side as p
+    // Slanted segment D -> DE: parallel to the D-DE line, on the OUTSIDE of the
+    // model (away from its centre) so it never cuts across the part.
     const ts = DE.clone().sub(D).normalize();
     const ps = new THREE.Vector3().crossVectors(normal, ts).normalize();
-    if (ps.dot(p) < 0) ps.negate();
+    if (ps.dot(D.clone().add(DE).multiplyScalar(0.5).sub(center)) < 0) ps.negate();
     const off = margin * 2.2;
     ext(D, ps, off);
     ext(DE, ps, off);
@@ -372,6 +404,10 @@ export function buildDimensionLayouts(
       `${mm(D.distanceTo(DE))} mm`,
       ps.dot(uAxis) > 0 ? "left" : "right"
     );
+
+    if (fixed.chainSpanLine) {
+      lines.push({ points: [DE.clone(), E.clone()], dashed: true, color: DIM_BLACK });
+    }
 
     layouts.push({ id: "DE-chain", lines, arrows, dots: [D, DE, E], labels, ...common });
   }

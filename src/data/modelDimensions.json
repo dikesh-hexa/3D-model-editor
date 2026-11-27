@@ -5,6 +5,12 @@
   "AC-10-30JICDS-X":{
     "A": 25.4
   },
+  "AC-08-120-WFFD": {
+    "chainSpanLine": true
+  },
+  "AC-16-90-WFFDDS": {
+    "chainSpanAbove": true
+  },
   "AC-10-JX" : {
     "A": 28.6
   },
